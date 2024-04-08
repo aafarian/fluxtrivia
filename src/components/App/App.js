@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import HomePage from '../HomePage/HomePage';
-import QuizPage from '../QuizPage/QuizPage';
+import TriviaFactory from '../TriviaPage/TriviaFactory';
 import Box from '@mui/material/Box';
 import CategoriesPage from '../CategoriesPage/CategoriesPage';
 
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/categories" element={<CategoriesPage />} />
-        <Route path="/quiz/:categoryId" element={<QuizPage />} />
+        <Route path="/trivia/:categoryId" element={<TriviaFactory />} />
       </Routes>
     </Box>
   );

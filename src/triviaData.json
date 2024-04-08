@@ -1,1376 +1,1182 @@
 {
   "categories": [
     {
-      "categoryId": "5f658980-ff1e-45e7-809c-f0bbc03dfb7f",
-      "name": "Literature",
+      "categoryId": "44c566b7-f115-4b70-b1ad-05374f027abe",
+      "categoryName": "Physics",
+      "advancedCategoryName": "Quantum Mechanics",
       "questions": [
         {
-          "categoryId": "7e6efcbd-898b-4ba4-8dbb-a96f23f2660c",
-          "categoryName": "Literature",
-          "questionId": "f3bd79c0-faad-4730-8f46-6927fb7e01d9",
-          "question": "In J.R.R. Tolkien's \"The Lord of the Rings,\" who is NOT a member of the Fellowship of the Ring?",
+          "question": "What is the name given to the phenomenon whereby a particle can exist in multiple states at once until it is observed?",
+          "questionId": "764ad8b2-9639-4edb-9d69-ae1b1e34e93e",
           "answers": [
             {
-              "answerId": "a1",
-              "text": "Gandalf"
+              "answerId": "aa",
+              "text": "Heisenberg Uncertainty Principle"
             },
             {
-              "answerId": "a2",
-              "text": "Legolas"
+              "answerId": "ab",
+              "text": "Schrödinger's Cat"
             },
             {
-              "answerId": "a3",
-              "text": "Gollum"
+              "answerId": "ac",
+              "text": "Quantum Entanglement"
             },
             {
-              "answerId": "a4",
-              "text": "Gimli"
+              "answerId": "ad",
+              "text": "Wave-Particle Duality"
             }
           ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "The Fellowship of the Ring consists of Frodo Baggins, Samwise Gamgee, Meriadoc Brandybuck, Peregrin Took, Aragorn, Gandalf, Legolas, Gimli, and Boromir. Gollum, although a significant character in both \"The Hobbit\" and \"The Lord of the Rings,\" is not a member of the Fellowship, but rather serves as both a guide and antagonist to Frodo and Sam in their journey to Mordor."
-        },
+          "correctAnswerId": "ab",
+          "explanation": "This phenomenon is famously illustrated by the thought experiment known as Schrödinger's Cat, where a cat in a box is simultaneously alive and dead until the box is opened and the cat is observed.",
+          "difficulty": "Easy",
+          "categoryId": "44c566b7-f115-4b70-b1ad-05374f027abe"
+        }
+      ]
+    },
+    {
+      "categoryId": "2fe4311a-5f2e-42c2-8dab-ff83f4b3eceb",
+      "categoryName": "Biology",
+      "advancedCategoryName": "Genetics",
+      "questions": [
         {
-          "categoryId": "6f1409d0-3b79-49d2-aca7-d00c5e6d1aa8",
-          "categoryName": "Literature",
-          "questionId": "586c93b8-6f5e-44b4-8077-18a619a80f32",
-          "question": "In Herman Melville's \"Moby-Dick,\" what is the first name of Captain Ahab's wife?",
+          "question": "Which of the following is not a nucleotide found in DNA?",
+          "questionId": "e74852a6-95be-4787-8e1a-4198aebd1e50",
           "answers": [
             {
-              "answerId": "a1",
-              "text": "Elizabeth"
+              "answerId": "aa",
+              "text": "Adenine"
             },
             {
-              "answerId": "a2",
-              "text": "Margaret"
+              "answerId": "ab",
+              "text": "Cytosine"
             },
             {
-              "answerId": "a3",
-              "text": "Mary"
+              "answerId": "ac",
+              "text": "Uracil"
             },
             {
-              "answerId": "a4",
-              "text": "Una"
+              "answerId": "ad",
+              "text": "Thymine"
             }
           ],
-          "correctAnswerId": "a4",
+          "correctAnswerId": "ac",
+          "explanation": "Uracil is a nucleotide found in RNA, replacing Thymine found in DNA.",
+          "difficulty": "Medium",
+          "categoryId": "2fe4311a-5f2e-42c2-8dab-ff83f4b3eceb"
+        }
+      ]
+    },
+    {
+      "categoryId": "0cc53961-ca08-4e09-96f9-961c459e18b9",
+      "categoryName": "Astronomy",
+      "advancedCategoryName": "Cosmology",
+      "questions": [
+        {
+          "question": "What is considered the most distant object observable with current technology in the universe?",
+          "questionId": "f86d8259-f1e3-4aa8-a8b0-2cb396f79772",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "The Andromeda Galaxy"
+            },
+            {
+              "answerId": "ab",
+              "text": "The Cosmic Microwave Background Radiation"
+            },
+            {
+              "answerId": "ac",
+              "text": "GN-z11, a high-redshift galaxy"
+            },
+            {
+              "answerId": "ad",
+              "text": "The Hubble Deep Field"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "The Cosmic Microwave Background Radiation is the thermal remnant from the early universe, about 380,000 years after the Big Bang, making it the most distant (in terms of time and space) observable phenomenon.",
+          "difficulty": "Very Challenging",
+          "categoryId": "0cc53961-ca08-4e09-96f9-961c459e18b9"
+        }
+      ]
+    },
+    {
+      "categoryId": "f0f11630-eb6a-4864-8c71-8ca10a383b66",
+      "categoryName": "Football",
+      "advancedCategoryName": "Historical Players",
+      "questions": [
+        {
+          "question": "Who scored the \"Hand of God\" goal in the 1986 World Cup?",
+          "questionId": "fda69545-0407-4154-be4a-32206ac344c3",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Diego Maradona"
+            },
+            {
+              "answerId": "ab",
+              "text": "Pelé"
+            },
+            {
+              "answerId": "ac",
+              "text": "Lionel Messi"
+            },
+            {
+              "answerId": "ad",
+              "text": "Ronaldo"
+            }
+          ],
+          "correctAnswerId": "aa",
+          "explanation": "The \"Hand of God\" goal was scored by Diego Maradona during the quarter-final match between Argentina and England.",
+          "difficulty": "Easy",
+          "categoryName": "Football",
+          "advancedCategoryName": "Historical Players",
+          "categoryId": "f0f11630-eb6a-4864-8c71-8ca10a383b66"
+        }
+      ]
+    },
+    {
+      "categoryId": "856c51c0-64c0-40f2-b767-ddc112a43a08",
+      "categoryName": "Tennis",
+      "advancedCategoryName": "Grand Slam Titles",
+      "questions": [
+        {
+          "question": "Which female tennis player has won the most Grand Slam singles titles?",
+          "questionId": "15e3eda6-dd01-40eb-b825-6cd86e57e98a",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Serena Williams"
+            },
+            {
+              "answerId": "ab",
+              "text": "Steffi Graf"
+            },
+            {
+              "answerId": "ac",
+              "text": "Margaret Court"
+            },
+            {
+              "answerId": "ad",
+              "text": "Martina Navratilova"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "Margaret Court holds the record for the most Grand Slam singles titles won by a female player, with a total of 24 titles.",
+          "difficulty": "Medium",
+          "categoryName": "Tennis",
+          "advancedCategoryName": "Grand Slam Titles",
+          "categoryId": "856c51c0-64c0-40f2-b767-ddc112a43a08"
+        }
+      ]
+    },
+    {
+      "categoryId": "d126ec83-a914-43b8-beac-f2eaa934d1ab",
+      "categoryName": "Basketball",
+      "advancedCategoryName": "NBA Records",
+      "questions": [
+        {
+          "question": "Who holds the record for the most points scored in a single NBA game?",
+          "questionId": "7675ac07-1b15-4d21-8e7f-7ef269ab72fe",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "LeBron James"
+            },
+            {
+              "answerId": "ab",
+              "text": "Michael Jordan"
+            },
+            {
+              "answerId": "ac",
+              "text": "Kobe Bryant"
+            },
+            {
+              "answerId": "ad",
+              "text": "Wilt Chamberlain"
+            }
+          ],
+          "correctAnswerId": "ad",
+          "explanation": "Wilt Chamberlain holds the record for most points scored in a single NBA game, scoring 100 points for the Philadelphia Warriors in a game against the New York Knicks on March 2, 1962.",
+          "difficulty": "Medium",
+          "categoryName": "Basketball",
+          "advancedCategoryName": "NBA Records",
+          "categoryId": "d126ec83-a914-43b8-beac-f2eaa934d1ab"
+        }
+      ]
+    },
+    {
+      "categoryId": "dbc8c812-06d2-488b-971f-38751d892a3a",
+      "categoryName": "Athletics",
+      "advancedCategoryName": "Olympic Records",
+      "questions": [
+        {
+          "question": "Who is the first athlete to win the Olympic 100m title three times in a row?",
+          "questionId": "b3f57f96-49fa-4b64-bce8-4363455459bd",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Carl Lewis"
+            },
+            {
+              "answerId": "ab",
+              "text": "Usain Bolt"
+            },
+            {
+              "answerId": "ac",
+              "text": "Maurice Greene"
+            },
+            {
+              "answerId": "ad",
+              "text": "Jesse Owens"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "Usain Bolt is the first athlete to win the Olympic 100m title three times in a row, achieving this feat in 2008, 2012, and 2016.",
+          "difficulty": "Medium",
+          "categoryName": "Athletics",
+          "advancedCategoryName": "Olympic Records",
+          "categoryId": "dbc8c812-06d2-488b-971f-38751d892a3a"
+        }
+      ]
+    },
+    {
+      "categoryId": "b1f61900-dac7-4c02-a9a5-7a5366004a32",
+      "categoryName": "Cricket",
+      "advancedCategoryName": "World Cup History",
+      "questions": [
+        {
+          "question": "Which country won the first Cricket World Cup in 1975?",
+          "questionId": "ddbf6ad9-ab55-4688-808f-46ea69fb8fa7",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Australia"
+            },
+            {
+              "answerId": "ab",
+              "text": "West Indies"
+            },
+            {
+              "answerId": "ac",
+              "text": "England"
+            },
+            {
+              "answerId": "ad",
+              "text": "India"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "The West Indies won the first Cricket World Cup in 1975, defeating Australia in the final.",
+          "difficulty": "Easy",
+          "categoryName": "Cricket",
+          "advancedCategoryName": "World Cup History",
+          "categoryId": "b1f61900-dac7-4c02-a9a5-7a5366004a32"
+        }
+      ]
+    },
+    {
+      "categoryId": "008e9f29-58ed-403e-90c6-c42c77f0badc",
+      "categoryName": "Figure Skating",
+      "advancedCategoryName": "Olympic Champions",
+      "questions": [
+        {
+          "question": "Who was the first man to land a quadruple jump in Olympic competition?",
+          "questionId": "c8bef1c0-d90b-4ef3-aa18-f45f8050c9b9",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Brian Boitano"
+            },
+            {
+              "answerId": "ab",
+              "text": "Kurt Browning"
+            },
+            {
+              "answerId": "ac",
+              "text": "Ilia Kulik"
+            },
+            {
+              "answerId": "ad",
+              "text": "Scott Hamilton"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "Ilia Kulik was the first man to land a quadruple jump in Olympic competition, achieving this at the 1998 Winter Olympics.",
           "difficulty": "Hard",
-          "explanation": "In Herman Melville's \"Moby-Dick,\" Captain Ahab's wife is mentioned only a few times and her name is Una. This detail is easily overlooked due to its brief mention and the focus on the sea narrative and Ahab's obsession with the white whale. The name Una is derived from Latin, meaning \"one\" or \"together,\" which is ironic considering Ahab's isolation and obsession that keeps him away from her."
-        },
-        {
-          "categoryId": "76bb93d7-6c0a-45de-9019-ded7ae458361",
-          "categoryName": "Literature",
-          "questionId": "bb50f64a-ea98-458e-80bf-707a419db373",
-          "question": "In the Harry Potter series, which character becomes the master of the Elder Wand after Albus Dumbledore's death?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Lord Voldemort"
-            },
-            {
-              "answerId": "a2",
-              "text": "Severus Snape"
-            },
-            {
-              "answerId": "a3",
-              "text": "Draco Malfoy"
-            },
-            {
-              "answerId": "a4",
-              "text": "Harry Potter"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Although many might think the Elder Wand's mastery passed directly to the person who killed its previous owner (Dumbledore), it actually passed to Draco Malfoy. This is because Draco was the one who disarmed Dumbledore on the Astronomy Tower in \"Harry Potter and the Half-Blood Prince,\" making Draco the wand's master. Later, Harry Potter disarms Draco in \"Harry Potter and the Deathly Hallows,\" making Harry the wand's final master before its power is ultimately neutralized."
-        },
-        {
-          "categoryId": "9671f87c-adaf-444f-8755-c48bdbc8a62c",
-          "categoryName": "Literature",
-          "questionId": "c6377c59-5db5-49bc-9822-fa64d395706f",
-          "question": "In J.R.R. Tolkien's \"The Lord of the Rings,\" who is NOT a member of the Fellowship of the Ring?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Gimli"
-            },
-            {
-              "answerId": "a2",
-              "text": "Legolas"
-            },
-            {
-              "answerId": "a3",
-              "text": "Gandalf"
-            },
-            {
-              "answerId": "a4",
-              "text": "Gollum"
-            }
-          ],
-          "correctAnswerId": "a4",
-          "difficulty": "Medium",
-          "explanation": "The Fellowship of the Ring, tasked with the destruction of the One Ring, consists of Frodo Baggins, Samwise Gamgee, Meriadoc Brandybuck, Peregrin Took, Gandalf, Aragorn, Legolas, Gimli, and Boromir. Gollum, while a central character in the story, was never an official member of the Fellowship. He does, however, play a crucial role in guiding Frodo and Sam to Mordor, driven by his obsession with the One Ring."
-        },
-        {
-          "categoryId": "a257feab-5490-4a57-a8fc-4cb0106c0062",
-          "categoryName": "Literature",
-          "questionId": "53a33cd9-a004-4c2f-802f-5a9bedd4282a",
-          "question": "In F. Scott Fitzgerald's novel \"The Great Gatsby,\" what is the name of the mysterious millionaire who throws extravagant parties?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Tom Buchanan"
-            },
-            {
-              "answerId": "a2",
-              "text": "George Wilson"
-            },
-            {
-              "answerId": "a3",
-              "text": "Jay Gatsby"
-            },
-            {
-              "answerId": "a4",
-              "text": "Nick Carraway"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Jay Gatsby is the central character of \"The Great Gatsby,\" known for his wealth and the lavish parties he throws in hopes of attracting Daisy Buchanan, with whom he is deeply in love. The novel, set in the Jazz Age, explores themes of decadence, idealism, resistance to change, and excess, making Gatsby's character pivotal to its narrative and thematic development."
-        },
-        {
-          "categoryId": "b12c7a8a-b299-4ea1-ac35-78f26d800dc7",
-          "categoryName": "Literature",
-          "questionId": "5fff2481-503c-4554-9dec-77e1c78f260a",
-          "question": "In F. Scott Fitzgerald's novel \"The Great Gatsby,\" what is the name of the character who is known for saying, \"old sport\"?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Tom Buchanan"
-            },
-            {
-              "answerId": "a2",
-              "text": "Jay Gatsby"
-            },
-            {
-              "answerId": "a3",
-              "text": "Nick Carraway"
-            },
-            {
-              "answerId": "a4",
-              "text": "George Wilson"
-            }
-          ],
-          "correctAnswerId": "a2",
-          "difficulty": "Medium",
-          "explanation": "Jay Gatsby, the enigmatic millionaire and title character of F. Scott Fitzgerald's novel, frequently uses the term \"old sport\" throughout the book when addressing other characters. This mannerism is part of Gatsby's attempt to present himself as a man of wealth and sophistication, though it also highlights his desire to fit into a society that remains forever out of his reach."
-        },
-        {
-          "categoryId": "52593282-e888-4fce-90c2-a8184cfedc5c",
-          "categoryName": "Literature",
-          "questionId": "3e5919ce-1535-4de9-86b3-5fa9cd4449aa",
-          "question": "In F. Scott Fitzgerald's novel \"The Great Gatsby,\" what is the name of the character who is Gatsby's neighbor and also the novel's narrator?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Tom Buchanan"
-            },
-            {
-              "answerId": "a2",
-              "text": "Jordan Baker"
-            },
-            {
-              "answerId": "a3",
-              "text": "Myrtle Wilson"
-            },
-            {
-              "answerId": "a4",
-              "text": "Nick Carraway"
-            }
-          ],
-          "correctAnswerId": "a4",
-          "difficulty": "Medium",
-          "explanation": "Nick Carraway is the novel's narrator and lives next door to Jay Gatsby in the fictional town of West Egg on Long Island. The story of Jay Gatsby's mysterious life and love for Daisy Buchanan is told from Nick's perspective, making him a crucial character in the novel's development and its recounting of events."
-        },
-        {
-          "categoryId": "39eb5836-bacf-4311-b650-fb77b441cf9f",
-          "categoryName": "Literature",
-          "questionId": "bb087554-401f-438d-a65d-492f3c2b2d68",
-          "question": "Which novel begins with the line \"It was a bright cold day in April, and the clocks were striking thirteen\"?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Brave New World"
-            },
-            {
-              "answerId": "a2",
-              "text": "Fahrenheit 451"
-            },
-            {
-              "answerId": "a3",
-              "text": "1984"
-            },
-            {
-              "answerId": "a4",
-              "text": "The Catcher in the Rye"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "The opening line of George Orwell's dystopian novel \"1984\" is iconic for its unusual time reference, immediately setting the tone for the novel's exploration of a totalitarian regime where even the perception of time is manipulated. This novel, published in 1949, is a critical commentary on the dangers of totalitarianism and mass surveillance."
-        },
-        {
-          "categoryId": "aa579734-a106-491d-a185-390913ead436",
-          "categoryName": "Literature",
-          "questionId": "6370bc7e-4819-4f7a-a0b3-e5856e14e0d5",
-          "question": "In J.R.R. Tolkien's \"The Lord of the Rings,\" who is NOT a member of the Fellowship of the Ring?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Gimli"
-            },
-            {
-              "answerId": "a2",
-              "text": "Gollum"
-            },
-            {
-              "answerId": "a3",
-              "text": "Legolas"
-            },
-            {
-              "answerId": "a4",
-              "text": "Boromir"
-            }
-          ],
-          "correctAnswerId": "a2",
-          "difficulty": "Medium",
-          "explanation": "The Fellowship of the Ring, as described in J.R.R. Tolkien's epic fantasy, consists of Frodo Baggins, Samwise Gamgee, Meriadoc Brandybuck, Peregrin Took, Aragorn, Gandalf, Legolas, Gimli, and Boromir. Gollum, although a significant character in the story, is not a member of the Fellowship. He follows Frodo and Sam on their journey to Mordor but does so for his own reasons, driven by his desire to reclaim the One Ring."
-        },
-        {
-          "categoryId": "e75684ec-069e-4fc1-9907-e7ecf5ace9dd",
-          "categoryName": "Literature",
-          "questionId": "3f66b89b-ad91-4d29-b36b-c24297d258c9",
-          "question": "In J.R.R. Tolkien's \"The Lord of the Rings\", who is NOT a member of the Fellowship of the Ring?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Legolas"
-            },
-            {
-              "answerId": "a2",
-              "text": "Gandalf"
-            },
-            {
-              "answerId": "a3",
-              "text": "Gollum"
-            },
-            {
-              "answerId": "a4",
-              "text": "Gimli"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "The Fellowship of the Ring consists of Frodo, Sam, Merry, Pippin, Gandalf, Legolas, Gimli, Aragorn, and Boromir. Gollum, although a significant character in the story, is not a member of the Fellowship. He follows the group in secret, driven by his desire to reclaim the One Ring."
-        },
-        {
-          "categoryId": "392beb0b-95bb-441e-b316-4e22ee0b382e",
-          "categoryName": "Literature",
-          "questionId": "3ac14d8e-2944-41b2-8bed-c2d69459718a",
-          "question": "In F. Scott Fitzgerald's novel \"The Great Gatsby,\" what is the name of the character known for being the narrator of the story?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Jay Gatsby"
-            },
-            {
-              "answerId": "a2",
-              "text": "Daisy Buchanan"
-            },
-            {
-              "answerId": "a3",
-              "text": "Tom Buchanan"
-            },
-            {
-              "answerId": "a4",
-              "text": "Nick Carraway"
-            }
-          ],
-          "correctAnswerId": "a4",
-          "difficulty": "Medium",
-          "explanation": "Nick Carraway is the character who serves as the narrator in \"The Great Gatsby.\" He is a Yale graduate from the Midwest who moves to West Egg, Long Island, to work in the bond business. As a neighbor of Jay Gatsby and a cousin to Daisy Buchanan, Nick becomes entangled in the complex relationships and social dynamics of the wealthy inhabitants of East and West Egg, providing a unique and insightful perspective on the events of the story."
-        },
-        {
-          "categoryId": "de861b41-f94b-4a72-8e96-78ba550c244e",
-          "categoryName": "Literature",
-          "questionId": "d364778b-cafb-42a5-9dee-bf1232ec6150",
-          "question": "Which novel begins with the line \"It was the best of times, it was the worst of times\"?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "War and Peace"
-            },
-            {
-              "answerId": "a2",
-              "text": "Moby-Dick"
-            },
-            {
-              "answerId": "a3",
-              "text": "A Tale of Two Cities"
-            },
-            {
-              "answerId": "a4",
-              "text": "The Great Gatsby"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "The opening line \"It was the best of times, it was the worst of times\" is the famous beginning of Charles Dickens' novel \"A Tale of Two Cities\". The story is set in London and Paris before and during the French Revolution. This line is often cited as one of the most memorable opening lines in English literature, encapsulating the contradictions inherent in the era Dickens describes."
-        },
-        {
-          "categoryId": "dfe34296-31f2-41db-a183-794ecaa9a49f",
-          "categoryName": "Literature",
-          "questionId": "92656466-7459-4c94-a26d-f6a1c87c82cf",
-          "question": "In Herman Melville's novel \"Moby-Dick,\" what is Captain Ahab's obsession?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Finding a lost island"
-            },
-            {
-              "answerId": "a2",
-              "text": "Sailing around the world"
-            },
-            {
-              "answerId": "a3",
-              "text": "Hunting a white whale"
-            },
-            {
-              "answerId": "a4",
-              "text": "Discovering a hidden treasure"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "In Herman Melville's \"Moby-Dick,\" Captain Ahab is obsessively focused on hunting the white whale, Moby Dick, who on a previous whaling voyage bit off Ahab's leg at the knee. Ahab's monomaniacal quest for revenge against the whale drives the plot of the novel."
-        },
-        {
-          "categoryId": "204fb990-67b9-4088-8bdb-838cfc090ed0",
-          "categoryName": "Literature",
-          "questionId": "9d3eefb9-67ae-4f7c-a333-dec534a2a3cd",
-          "question": "Who wrote the dystopian novel \"Fahrenheit 451\"?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "George Orwell"
-            },
-            {
-              "answerId": "a2",
-              "text": "Aldous Huxley"
-            },
-            {
-              "answerId": "a3",
-              "text": "Ray Bradbury"
-            },
-            {
-              "answerId": "a4",
-              "text": "Margaret Atwood"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Ray Bradbury is the author of \"Fahrenheit 451,\" a dystopian novel published in 1953 that explores the themes of censorship and the suppression of dissenting ideas through the burning of books. The story is set in a future American society where firemen start fires to burn books rather than put them out. The title refers to the temperature at which book paper catches fire and burns. George Orwell wrote \"1984,\" Aldous Huxley wrote \"Brave New World,\" and Margaret Atwood wrote \"The Handmaid's Tale,\" all of which are also dystopian novels but distinct in their themes and narratives from Bradbury's work."
-        },
-        {
-          "categoryId": "546f0a57-1b66-42b7-ba73-1d7c5debd3d4",
-          "categoryName": "Literature",
-          "questionId": "6a26f99b-2362-4905-bb1d-fd45963ad0e1",
-          "question": "In J.R.R. Tolkien's \"The Lord of the Rings\", who is NOT a member of the Fellowship of the Ring?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Gimli"
-            },
-            {
-              "answerId": "a2",
-              "text": "Legolas"
-            },
-            {
-              "answerId": "a3",
-              "text": "Gandalf"
-            },
-            {
-              "answerId": "a4",
-              "text": "Gollum"
-            }
-          ],
-          "correctAnswerId": "a4",
-          "difficulty": "Medium",
-          "explanation": "The Fellowship of the Ring consists of nine members: Frodo Baggins, Samwise Gamgee, Meriadoc Brandybuck, Peregrin Took, Gandalf, Aragorn, Legolas, Gimli, and Boromir. Gollum, while a central character in the story, is not a member of the Fellowship. He follows the Fellowship from a distance and later becomes the guide for Frodo and Sam on their journey to Mordor, but he was never officially part of the group."
-        },
-        {
-          "categoryId": "85f7092d-37db-476f-95c4-b24ea3c83343",
-          "categoryName": "Literature",
-          "questionId": "522ffb9d-04a0-4874-abce-8bb96eca37ed",
-          "question": "In J.R.R. Tolkien's \"The Lord of the Rings,\" which character said, \"Not all those who wander are lost\"?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Gandalf"
-            },
-            {
-              "answerId": "a2",
-              "text": "Frodo Baggins"
-            },
-            {
-              "answerId": "a3",
-              "text": "Aragorn"
-            },
-            {
-              "answerId": "a4",
-              "text": "Bilbo Baggins"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "The line \"Not all those who wander are lost\" is from a poem that describes Aragorn, known as Strider at the beginning of the trilogy. It is part of a longer poem that Bilbo Baggins wrote about Aragorn, which is found in \"The Fellowship of the Ring.\" The poem helps to foreshadow Aragorn's importance and his true identity as the heir to the throne of Gondor."
+          "categoryName": "Figure Skating",
+          "advancedCategoryName": "Olympic Champions",
+          "categoryId": "008e9f29-58ed-403e-90c6-c42c77f0badc"
         }
       ]
     },
     {
-      "categoryId": "cd2b9bef-44ad-41a0-bcd1-6e99bc4ac0a9",
-      "name": "Geography",
+      "categoryId": "ffefa88e-49d6-4c04-9cfb-fd1328a62f4e",
+      "categoryName": "Soccer",
+      "advancedCategoryName": "FIFA World Cup Winners",
       "questions": [
         {
-          "categoryId": "e69ad553-269d-449c-85c0-31046083ecdb",
-          "categoryName": "Geography",
-          "questionId": "ea54f51d-1eb3-4e49-9d22-5f9789d546ff",
-          "question": "What is the capital city of Australia?",
+          "question": "Which country has won the most FIFA World Cup titles?",
+          "questionId": "11a1db5d-485a-48b1-abd1-69bd32b8603f",
           "answers": [
             {
-              "answerId": "a1",
-              "text": "Sydney"
-            },
-            {
-              "answerId": "a2",
-              "text": "Melbourne"
-            },
-            {
-              "answerId": "a3",
-              "text": "Canberra"
-            },
-            {
-              "answerId": "a4",
-              "text": "Brisbane"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "The capital city of Australia is Canberra. This is a common misconception as many people assume Sydney, the largest city, or Melbourne, another major city, is the capital. However, Canberra was selected as the capital in 1908 as a compromise between rivals Sydney and Melbourne, the two largest cities in Australia. It's located in the Australian Capital Territory (ACT) and serves as the center of the Australian government."
-        },
-        {
-          "categoryId": "6555907c-4a65-4578-9992-79a25f7c4114",
-          "categoryName": "Geography",
-          "questionId": "10d78593-b8ec-47df-b96e-105e32ef7808",
-          "question": "Which country is known as the Land of the Rising Sun?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "China"
-            },
-            {
-              "answerId": "a2",
-              "text": "Japan"
-            },
-            {
-              "answerId": "a3",
-              "text": "South Korea"
-            },
-            {
-              "answerId": "a4",
-              "text": "Thailand"
-            }
-          ],
-          "correctAnswerId": "a2",
-          "difficulty": "Moderate",
-          "explanation": "Japan is known as the Land of the Rising Sun. This name comes from Japan's location to the east of the Asian continent. In Japanese, Japan is called \"Nihon\" or \"Nippon,\" which means \"source of the sun\" or \"sun origin,\" referencing its eastern location where the sun rises."
-        },
-        {
-          "categoryId": "16869f3e-3eb1-4048-8b29-cad1e030d530",
-          "categoryName": "Geography",
-          "questionId": "434f37f8-f8e9-4912-9e2e-617510f33695",
-          "question": "Which country has the most islands in the world?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Canada"
-            },
-            {
-              "answerId": "a2",
-              "text": "Indonesia"
-            },
-            {
-              "answerId": "a3",
-              "text": "Sweden"
-            },
-            {
-              "answerId": "a4",
-              "text": "Philippines"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Sweden officially has the most islands of any country in the world, with over 221,800, most of which are uninhabited. Despite Indonesia and Canada having a large number of islands as well, Sweden outnumbers them when it comes to the total count."
-        },
-        {
-          "categoryId": "8b552cfd-7b7a-4ace-b155-9a735b389148",
-          "categoryName": "Geography",
-          "questionId": "664483f0-bc0a-4a5f-8e15-666d26b8ea2a",
-          "question": "Which country has the longest coastline in the world?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Russia"
-            },
-            {
-              "answerId": "a2",
-              "text": "Canada"
-            },
-            {
-              "answerId": "a3",
-              "text": "Indonesia"
-            },
-            {
-              "answerId": "a4",
-              "text": "Australia"
-            }
-          ],
-          "correctAnswerId": "a2",
-          "difficulty": "Medium",
-          "explanation": "Canada has the longest coastline in the world, stretching over 202,080 kilometers (125,567 miles). This vast coastline borders three different oceans: the Atlantic, Pacific, and Arctic Oceans. The extensive and intricate layout of bays, inlets, and islands along Canada's coast contributes to its length, making it the country with the longest coastline in the world."
-        },
-        {
-          "categoryId": "c67561fc-428e-4155-bbf1-e1f73d1ce29d",
-          "categoryName": "Geography",
-          "questionId": "f825ee53-7a20-410a-ba92-8ac61a0a6bad",
-          "question": "What is the capital city of Australia?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Sydney"
-            },
-            {
-              "answerId": "a2",
-              "text": "Melbourne"
-            },
-            {
-              "answerId": "a3",
-              "text": "Canberra"
-            },
-            {
-              "answerId": "a4",
-              "text": "Brisbane"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Canberra is the capital city of Australia. While Sydney and Melbourne are more internationally recognized and larger in terms of population, Canberra was selected as the capital in 1908 as a compromise location between these two cities. It officially became the capital city when the Parliament House was opened on 9 May 1927."
-        },
-        {
-          "categoryId": "343f49f9-ac11-43ba-a778-c14dad964df2",
-          "categoryName": "Geography",
-          "questionId": "c0c30dd7-a7a1-447e-9377-fcc17fe31193",
-          "question": "What is the capital city of Australia?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Sydney"
-            },
-            {
-              "answerId": "a2",
-              "text": "Melbourne"
-            },
-            {
-              "answerId": "a3",
-              "text": "Canberra"
-            },
-            {
-              "answerId": "a4",
-              "text": "Brisbane"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "The capital city of Australia is Canberra. While Sydney and Melbourne are more internationally recognized and larger in terms of population, Canberra was chosen as the capital in 1908 as a compromise between rivals Sydney and Melbourne, Australia's two largest cities. It is located in the Australian Capital Territory (ACT) and is the political center of the nation."
-        },
-        {
-          "categoryId": "4649ba37-c313-4a48-808e-130a83daf47a",
-          "categoryName": "Geography",
-          "questionId": "5f852790-00e1-4a00-be7a-179942b85d53",
-          "question": "What is the capital city of Australia?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Sydney"
-            },
-            {
-              "answerId": "a2",
-              "text": "Melbourne"
-            },
-            {
-              "answerId": "a3",
-              "text": "Canberra"
-            },
-            {
-              "answerId": "a4",
-              "text": "Brisbane"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Canberra is the capital city of Australia. While Sydney and Melbourne are more populous and internationally recognized cities, Canberra was selected as the capital in 1908 as a compromise between rivals Sydney and Melbourne, Australia's two largest cities. It is located in the Australian Capital Territory (ACT) and serves as the center of government."
-        },
-        {
-          "categoryId": "8d0bae62-9bb6-4971-93b7-23cde0681900",
-          "categoryName": "Geography",
-          "questionId": "9aea8696-4b58-4ff8-b72c-27c0f7d0594c",
-          "question": "What is the capital city of New Zealand?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Sydney"
-            },
-            {
-              "answerId": "a2",
-              "text": "Wellington"
-            },
-            {
-              "answerId": "a3",
-              "text": "Auckland"
-            },
-            {
-              "answerId": "a4",
-              "text": "Melbourne"
-            }
-          ],
-          "correctAnswerId": "a2",
-          "difficulty": "Medium",
-          "explanation": "Wellington is the capital city of New Zealand. It is located at the southwestern tip of the North Island, between Cook Strait and the Rimutaka Range. Wellington is the political and administrative center of New Zealand, housing the New Zealand Parliament and other government institutions. Auckland is the largest city but not the capital, while Sydney and Melbourne are major cities in Australia, not New Zealand."
-        },
-        {
-          "categoryId": "51065fdf-1f77-40a6-bb69-d0b2641c5560",
-          "categoryName": "Geography",
-          "questionId": "6f301a23-ca0c-425a-aa83-74582de1ae4a",
-          "question": "Which country is known as the \"Land of a Thousand Lakes\"?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Finland"
-            },
-            {
-              "answerId": "a2",
-              "text": "Canada"
-            },
-            {
-              "answerId": "a3",
-              "text": "Norway"
-            },
-            {
-              "answerId": "a4",
-              "text": "Sweden"
-            }
-          ],
-          "correctAnswerId": "a1",
-          "difficulty": "Medium",
-          "explanation": "Finland is famously known as the \"Land of a Thousand Lakes,\" although the country actually has much more than a thousand; it boasts around 188,000 lakes. This large number of lakes is due to the country's northern location and the effects of the last Ice Age, which left behind numerous bodies of water as glaciers retreated."
-        },
-        {
-          "categoryId": "3c45ab6e-21bf-4410-b068-cee743451ee4",
-          "categoryName": "Geography",
-          "questionId": "5ea6596d-3af7-402e-a1e4-1e23817a5396",
-          "question": "What is the capital city of New Zealand?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Auckland"
-            },
-            {
-              "answerId": "a2",
-              "text": "Christchurch"
-            },
-            {
-              "answerId": "a3",
-              "text": "Wellington"
-            },
-            {
-              "answerId": "a4",
-              "text": "Hamilton"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Wellington is the capital city of New Zealand. It is located at the southwestern tip of the North Island, between Cook Strait and the Rimutaka Range. Auckland is the largest city, but Wellington has been the capital since 1865, chosen for its central location in the country."
-        },
-        {
-          "categoryId": "2900f9b2-0b01-4eb5-a71f-d890d11cdbbb",
-          "categoryName": "Geography",
-          "questionId": "00a6b2e6-054e-478e-b91b-4ae91869ad62",
-          "question": "What is the capital city of Australia?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Sydney"
-            },
-            {
-              "answerId": "a2",
-              "text": "Melbourne"
-            },
-            {
-              "answerId": "a3",
-              "text": "Canberra"
-            },
-            {
-              "answerId": "a4",
-              "text": "Perth"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Canberra is the capital city of Australia, not Sydney or Melbourne, which are often mistaken as the capital due to their international prominence and larger population sizes. Canberra was selected as the capital in 1908 as a compromise between rivals Sydney and Melbourne, Australia's two largest cities. It is located in the Australian Capital Territory (ACT) and is the center of the Australian government."
-        },
-        {
-          "categoryId": "3d709e7a-b123-4c76-b1b1-4d5ca7c6a931",
-          "categoryName": "Geography",
-          "questionId": "0cac9025-ce36-48ef-a3cb-85936efd378a",
-          "question": "What is the capital city of Australia?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Sydney"
-            },
-            {
-              "answerId": "a2",
-              "text": "Melbourne"
-            },
-            {
-              "answerId": "a3",
-              "text": "Canberra"
-            },
-            {
-              "answerId": "a4",
-              "text": "Perth"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Canberra is the capital city of Australia, not Sydney or Melbourne, which are more widely known internationally. Canberra was selected as the capital in 1908 as a compromise between rivals Sydney and Melbourne, Australia's two largest cities. It is located in the Australian Capital Territory (ACT), which is situated between New South Wales and Victoria."
-        },
-        {
-          "categoryId": "8403ba54-f8df-49a0-af47-f999f099ee8c",
-          "categoryName": "Geography",
-          "questionId": "81814374-96a8-403c-a2f6-30aad489b249",
-          "question": "What is the capital city of Australia?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Sydney"
-            },
-            {
-              "answerId": "a2",
-              "text": "Melbourne"
-            },
-            {
-              "answerId": "a3",
-              "text": "Perth"
-            },
-            {
-              "answerId": "a4",
-              "text": "Canberra"
-            }
-          ],
-          "correctAnswerId": "a4",
-          "difficulty": "Medium",
-          "explanation": "Canberra is the capital city of Australia, located in the Australian Capital Territory. It was selected as the capital in 1908 as a compromise between rivals Sydney and Melbourne, Australia's two largest cities. Canberra officially became the capital city of Australia in 1927."
-        },
-        {
-          "categoryId": "7f374b2d-2ada-4928-b1b0-03eb6f0ba58a",
-          "categoryName": "Geography",
-          "questionId": "22b2d739-b13e-4d5c-9457-554078e6abe0",
-          "question": "Which country has the longest coastline in the world?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "United States"
-            },
-            {
-              "answerId": "a2",
-              "text": "Canada"
-            },
-            {
-              "answerId": "a3",
-              "text": "Russia"
-            },
-            {
-              "answerId": "a4",
-              "text": "Australia"
-            }
-          ],
-          "correctAnswerId": "a2",
-          "difficulty": "Medium",
-          "explanation": "Canada has the longest coastline of any country in the world. Stretching over 202,080 kilometers, it significantly surpasses the coastlines of the other countries listed. This is due to its numerous bays, inlets, islands, and Arctic Ocean coastlines."
-        },
-        {
-          "categoryId": "f4d730db-2e8c-4472-b41f-887bfb4ffdee",
-          "categoryName": "Geography",
-          "questionId": "d6d659df-e8af-45fb-9836-f376b6b26e43",
-          "question": "What is the capital city of Canada?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Toronto"
-            },
-            {
-              "answerId": "a2",
-              "text": "Vancouver"
-            },
-            {
-              "answerId": "a3",
-              "text": "Ottawa"
-            },
-            {
-              "answerId": "a4",
-              "text": "Montreal"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Ottawa is the capital city of Canada. It is located on the Ottawa River in the eastern portion of the province of Ontario. Ottawa is the fourth largest city in Canada and serves as the political and technological center of the country. Toronto, while being the largest city and a significant cultural and economic hub, is not the capital. Similarly, Vancouver and Montreal are major cities in Canada but do not serve as the capital."
-        },
-        {
-          "categoryId": "9bec7222-33d8-477b-8a54-05a47659cc65",
-          "categoryName": "Geography",
-          "questionId": "3e31d5ff-b77e-46f0-8b5c-b2ead97658a6",
-          "question": "Which of the following countries has the highest number of active volcanoes?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "United States"
-            },
-            {
-              "answerId": "a2",
-              "text": "Italy"
-            },
-            {
-              "answerId": "a3",
-              "text": "Indonesia"
-            },
-            {
-              "answerId": "a4",
-              "text": "Japan"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Indonesia has the highest number of active volcanoes of any country in the world, with more than 130. It's part of the Pacific Ring of Fire, where a large number of earthquakes and volcanic eruptions occur due to tectonic movements. The United States, Italy, and Japan also have significant volcanic activity, but none surpass Indonesia in terms of the number of active volcanoes."
-        }
-      ]
-    },
-    {
-      "categoryId": "a7b5fc34-19a4-4da4-be67-61da354f5841",
-      "name": "Science",
-      "questions": [
-        {
-          "categoryId": "aa09ffb7-a5b8-4bc1-8b5e-d9e4f16427b3",
-          "categoryName": "Science",
-          "questionId": "4defa22f-3b4a-4e65-925d-f0ab183da220",
-          "question": "Which gas is most responsible for the greenhouse effect on Earth?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Oxygen"
-            },
-            {
-              "answerId": "a2",
-              "text": "Nitrogen"
-            },
-            {
-              "answerId": "a3",
-              "text": "Carbon Dioxide"
-            },
-            {
-              "answerId": "a4",
-              "text": "Methane"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Carbon dioxide (CO2) is the gas most responsible for the greenhouse effect, according to the majority of scientific research. Although methane (CH4), nitrous oxide (N2O), and fluorinated gases also contribute to the greenhouse effect, CO2 has the most significant impact due to its abundance and its ability to trap heat in the atmosphere. Human activities, such as the burning of fossil fuels and deforestation, have significantly increased the concentration of CO2 in the Earth's atmosphere, contributing to global warming and climate change."
-        },
-        {
-          "categoryId": "3a71243e-5c5c-4e5a-810f-6836a10e4977",
-          "categoryName": "Science",
-          "questionId": "46ab5431-05f0-4678-8940-59cc1360aafb",
-          "question": "What is the most abundant gas in the Earth's atmosphere?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Oxygen"
-            },
-            {
-              "answerId": "a2",
-              "text": "Hydrogen"
-            },
-            {
-              "answerId": "a3",
-              "text": "Nitrogen"
-            },
-            {
-              "answerId": "a4",
-              "text": "Carbon Dioxide"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Nitrogen is the most abundant gas in the Earth's atmosphere, making up about 78% of the air by volume. Oxygen comes in second at about 21%, while argon, carbon dioxide, and other gases make up the remaining 1%."
-        },
-        {
-          "categoryId": "421f3085-389d-4cde-b0cb-cb180649465d",
-          "categoryName": "Science",
-          "questionId": "497b817c-8894-4e92-8605-a58027b34afd",
-          "question": "What is the most abundant gas in the Earth's atmosphere?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Oxygen"
-            },
-            {
-              "answerId": "a2",
-              "text": "Hydrogen"
-            },
-            {
-              "answerId": "a3",
-              "text": "Nitrogen"
-            },
-            {
-              "answerId": "a4",
-              "text": "Carbon Dioxide"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Nitrogen is the most abundant gas in the Earth's atmosphere, making up about 78% of the air by volume. Oxygen, the second most abundant, comprises about 21%, while argon, carbon dioxide, and other gases make up the remaining 1%. Hydrogen is actually the lightest and most abundant element in the universe, but it is not the most abundant gas in Earth's atmosphere due to its lightness and the Earth's gravity."
-        },
-        {
-          "categoryId": "5235bfed-a8da-40dc-98e2-e46da4e8bcd4",
-          "categoryName": "Science",
-          "questionId": "2565821e-d988-41d2-825f-edcf6f8d223e",
-          "question": "Which element has the highest melting point of all pure elements?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Tungsten"
-            },
-            {
-              "answerId": "a2",
-              "text": "Carbon"
-            },
-            {
-              "answerId": "a3",
-              "text": "Iron"
-            },
-            {
-              "answerId": "a4",
-              "text": "Uranium"
-            }
-          ],
-          "correctAnswerId": "a1",
-          "difficulty": "Medium",
-          "explanation": "Tungsten, with the chemical symbol W and atomic number 74, has the highest melting point of all pure elements at 3,422 degrees Celsius (6,192 degrees Fahrenheit). This property makes tungsten an excellent material for use in high-temperature applications, such as incandescent light bulb filaments and in high-speed cutting tools."
-        },
-        {
-          "categoryId": "ce701275-8832-41c1-b17c-b2e937202334",
-          "categoryName": "Science",
-          "questionId": "6f929966-3f72-4504-b1af-0af4825057bf",
-          "question": "What element is represented by the symbol 'W' on the periodic table?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Tungsten"
-            },
-            {
-              "answerId": "a2",
-              "text": "Tantalum"
-            },
-            {
-              "answerId": "a3",
-              "text": "Wolfram"
-            },
-            {
-              "answerId": "a4",
-              "text": "Tin"
-            }
-          ],
-          "correctAnswerId": "a1",
-          "difficulty": "Medium",
-          "explanation": "The element represented by the symbol 'W' on the periodic table is Tungsten. The confusion sometimes arises because \"Wolfram\" is the name used in many languages for the element and is where the symbol 'W' comes from. However, in English, the correct name is Tungsten, making option A the correct choice."
-        },
-        {
-          "categoryId": "3b72591b-cbb8-408d-9568-22ac15fff1bf",
-          "categoryName": "Science",
-          "questionId": "05707fda-fb4b-41e0-b963-6c7ff2efe301",
-          "question": "What is the most abundant gas in the Earth's atmosphere?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Oxygen"
-            },
-            {
-              "answerId": "a2",
-              "text": "Hydrogen"
-            },
-            {
-              "answerId": "a3",
-              "text": "Nitrogen"
-            },
-            {
-              "answerId": "a4",
-              "text": "Carbon Dioxide"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Nitrogen is the most abundant gas in the Earth's atmosphere, making up about 78% of the air by volume. Oxygen, the second most abundant gas, constitutes approximately 21%, while argon, carbon dioxide, and other gases make up the remaining 1%. Hydrogen, despite being the most abundant element in the universe, is relatively scarce in Earth's atmosphere."
-        },
-        {
-          "categoryId": "d7c705f3-36e9-4ecf-ba5c-41a1520b65c6",
-          "categoryName": "Science",
-          "questionId": "cba0103a-3454-4281-bea9-620c41776994",
-          "question": "Which element is considered the lightest metal?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Lithium"
-            },
-            {
-              "answerId": "a2",
-              "text": "Helium"
-            },
-            {
-              "answerId": "a3",
-              "text": "Hydrogen"
-            },
-            {
-              "answerId": "a4",
-              "text": "Beryllium"
-            }
-          ],
-          "correctAnswerId": "a1",
-          "difficulty": "Medium",
-          "explanation": "Lithium is considered the lightest metal by atomic weight. It is a soft, silvery-white metal that belongs to the alkali metal group of chemical elements. While hydrogen is the lightest element overall and helium is the second lightest, neither are metals. Beryllium is also a light metal but is heavier than lithium."
-        },
-        {
-          "categoryId": "8be4b0f3-1ebc-4a71-a7ef-5a18b944d5c8",
-          "categoryName": "Science",
-          "questionId": "d3abd61f-c7f6-45ae-b1c4-92b3a1214a25",
-          "question": "Which element is a liquid at room temperature?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Iron"
-            },
-            {
-              "answerId": "a2",
-              "text": "Mercury"
-            },
-            {
-              "answerId": "a3",
-              "text": "Oxygen"
-            },
-            {
-              "answerId": "a4",
-              "text": "Silicon"
-            }
-          ],
-          "correctAnswerId": "a2",
-          "difficulty": "Medium",
-          "explanation": "Mercury is the correct answer because it is the only metal that is in liquid form at room temperature. Iron, Oxygen, and Silicon are in solid form at room temperature, with Oxygen being a gas under standard conditions. Mercury's unique properties make it an exception among metals."
-        },
-        {
-          "categoryId": "a2740578-e5a3-4428-8833-539b2932293d",
-          "categoryName": "Science",
-          "questionId": "4eedd889-5411-44bb-b5af-c79f0c86fa51",
-          "question": "What is the most abundant gas in the Earth's atmosphere?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Oxygen"
-            },
-            {
-              "answerId": "a2",
-              "text": "Hydrogen"
-            },
-            {
-              "answerId": "a3",
-              "text": "Nitrogen"
-            },
-            {
-              "answerId": "a4",
-              "text": "Carbon Dioxide"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Nitrogen makes up about 78% of the Earth's atmosphere, far more than any other gas. Oxygen, while essential for life, is the second most abundant, constituting about 21%. Hydrogen and carbon dioxide are present in much smaller amounts."
-        },
-        {
-          "categoryId": "04b31838-bf0f-437e-bf1d-01e752a7d181",
-          "categoryName": "Science",
-          "questionId": "0a52a6e2-2775-490a-ad16-7c7d99c06b8f",
-          "question": "What is the most abundant gas in the Earth's atmosphere?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Oxygen"
-            },
-            {
-              "answerId": "a2",
-              "text": "Hydrogen"
-            },
-            {
-              "answerId": "a3",
-              "text": "Nitrogen"
-            },
-            {
-              "answerId": "a4",
-              "text": "Carbon Dioxide"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Nitrogen makes up about 78% of the Earth's atmosphere, which is more than any other gas. Oxygen, the second most abundant, comprises about 21%, while argon, carbon dioxide, and other gases make up the remainder. Hydrogen, despite being the most abundant element in the universe, is relatively rare in Earth's atmosphere."
-        },
-        {
-          "categoryId": "0281261e-6d8a-41df-948a-781acebe1108",
-          "categoryName": "Science",
-          "questionId": "02c395de-2a70-4c0e-9666-1ee21a799e7f",
-          "question": "What is the most abundant gas in the Earth's atmosphere?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Oxygen"
-            },
-            {
-              "answerId": "a2",
-              "text": "Hydrogen"
-            },
-            {
-              "answerId": "a3",
-              "text": "Nitrogen"
-            },
-            {
-              "answerId": "a4",
-              "text": "Carbon Dioxide"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "The most abundant gas in the Earth's atmosphere is Nitrogen, making up about 78% of the Earth's air by volume. Oxygen comes second at approximately 21%, while Argon, Carbon Dioxide, and other gases make up the remaining 1%. Hydrogen, despite being the most abundant element in the universe, is not a major component of the Earth's atmosphere due to its light weight and the fact that it escapes into space more readily than heavier gases."
-        },
-        {
-          "categoryId": "97d7c6eb-7782-4869-8d51-d68655df8df8",
-          "categoryName": "Science",
-          "questionId": "35f7fc54-de8c-4f06-8867-deb5b5717663",
-          "question": "What is the most abundant gas in Earth's atmosphere?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Oxygen"
-            },
-            {
-              "answerId": "a2",
-              "text": "Hydrogen"
-            },
-            {
-              "answerId": "a3",
-              "text": "Nitrogen"
-            },
-            {
-              "answerId": "a4",
-              "text": "Carbon dioxide"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Nitrogen makes up about 78% of the Earth's atmosphere, far more than oxygen (about 21%), with trace amounts of other gases like argon, carbon dioxide, and hydrogen. This composition is crucial for life on Earth, as nitrogen is a vital component of the DNA and proteins that make up all living organisms."
-        },
-        {
-          "categoryId": "ea2bfff7-aac8-41c4-b2f7-996a69a75d8e",
-          "categoryName": "Science",
-          "questionId": "22bfc39c-c268-4058-87a0-a5f4fe9317c0",
-          "question": "What is the most abundant gas in the Earth's atmosphere?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Oxygen"
-            },
-            {
-              "answerId": "a2",
-              "text": "Hydrogen"
-            },
-            {
-              "answerId": "a3",
-              "text": "Nitrogen"
-            },
-            {
-              "answerId": "a4",
-              "text": "Carbon Dioxide"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Nitrogen makes up about 78% of the Earth's atmosphere, more than any other gas. Oxygen, the second most abundant gas, constitutes about 21%, while argon, carbon dioxide, and other gases make up the remaining 1%."
-        },
-        {
-          "categoryId": "c3e920b2-1701-4b4d-8388-4014d1e94575",
-          "categoryName": "Science",
-          "questionId": "d8e9e6e4-0f97-46b6-bf10-62b540788882",
-          "question": "What is the most abundant gas in the Earth's atmosphere?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Oxygen"
-            },
-            {
-              "answerId": "a2",
-              "text": "Hydrogen"
-            },
-            {
-              "answerId": "a3",
-              "text": "Nitrogen"
-            },
-            {
-              "answerId": "a4",
-              "text": "Carbon Dioxide"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Nitrogen is the most abundant gas in the Earth's atmosphere, making up about 78%. Oxygen comes next, comprising about 21%, while argon, carbon dioxide, and other gases make up the remaining 1%. Hydrogen, despite being the most abundant element in the universe, is relatively scarce in Earth's atmosphere."
-        },
-        {
-          "categoryId": "6ad20b96-b03b-45ab-aca9-80a591f56e09",
-          "categoryName": "Science",
-          "questionId": "6b94b48c-a140-45fc-a8b7-affbf11830e9",
-          "question": "What is the primary gas found in the atmosphere of Mars?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Oxygen"
-            },
-            {
-              "answerId": "a2",
-              "text": "Hydrogen"
-            },
-            {
-              "answerId": "a3",
-              "text": "Carbon Dioxide"
-            },
-            {
-              "answerId": "a4",
-              "text": "Nitrogen"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "The atmosphere of Mars is about 96% carbon dioxide. This is significantly different from Earth's atmosphere, which is primarily nitrogen and oxygen. The thick presence of carbon dioxide on Mars is one of the many challenges that scientists consider when exploring the possibility of human colonization or exploration of the planet."
-        },
-        {
-          "categoryId": "bb8834d9-42a9-4dad-b87f-d58ac3bb69ed",
-          "categoryName": "Science",
-          "questionId": "341d2e66-6a3e-4ecf-a063-a8df3e8c4214",
-          "question": "What is the most abundant gas in the Earth's atmosphere?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Oxygen"
-            },
-            {
-              "answerId": "a2",
-              "text": "Hydrogen"
-            },
-            {
-              "answerId": "a3",
-              "text": "Nitrogen"
-            },
-            {
-              "answerId": "a4",
-              "text": "Carbon Dioxide"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Nitrogen is the most abundant gas in the Earth's atmosphere, making up about 78% of the air by volume. Oxygen comes next, at about 21%, while argon, carbon dioxide, and other gases make up the remaining 1%."
-        },
-        {
-          "categoryId": "3fbff13f-41c7-4584-9765-9c3ca85c337e",
-          "categoryName": "Science",
-          "questionId": "53923ebf-02cd-475d-b921-94935df7c8e5",
-          "question": "What is the most abundant gas in the Earth's atmosphere?",
-          "answers": [
-            {
-              "answerId": "a1",
-              "text": "Oxygen"
-            },
-            {
-              "answerId": "a2",
-              "text": "Hydrogen"
-            },
-            {
-              "answerId": "a3",
-              "text": "Nitrogen"
-            },
-            {
-              "answerId": "a4",
-              "text": "Carbon Dioxide"
-            }
-          ],
-          "correctAnswerId": "a3",
-          "difficulty": "Medium",
-          "explanation": "Nitrogen is the most abundant gas in the Earth's atmosphere, making up about 78% of the air by volume. Oxygen comes in second at about 21%, while argon, carbon dioxide, and other gases make up the remaining 1%. Hydrogen, despite being the most abundant element in the universe, is relatively scarce in Earth's atmosphere."
-        }
-      ]
-    },
-    {
-      "categoryId": "7e33d3e5-5e63-4cba-933e-9a3772147ca6",
-      "name": "Sports",
-      "questions": [
-        {
-          "categoryId": "fcaf0604-be19-4902-a975-5c0969638ea6",
-          "categoryName": "Sports",
-          "questionId": "5945c5e8-6c84-4149-b6d0-384c146ad33d",
-          "question": "Which country won the first ever FIFA World Cup in 1930?",
-          "answers": [
-            {
-              "answerId": "a1",
+              "answerId": "aa",
               "text": "Brazil"
             },
             {
-              "answerId": "a2",
+              "answerId": "ab",
               "text": "Germany"
             },
             {
+              "answerId": "ac",
+              "text": "Italy"
+            },
+            {
+              "answerId": "ad",
+              "text": "Argentina"
+            }
+          ],
+          "correctAnswerId": "aa",
+          "explanation": "Brazil has won the most FIFA World Cup titles, securing their 5th championship in 2002.",
+          "difficulty": "Easy",
+          "categoryName": "Soccer",
+          "advancedCategoryName": "FIFA World Cup Winners",
+          "categoryId": "ffefa88e-49d6-4c04-9cfb-fd1328a62f4e"
+        }
+      ]
+    },
+    {
+      "categoryId": "19ea26ef-bb0c-42af-bff6-e2b6f4f5e8e4",
+      "categoryName": "Golf",
+      "advancedCategoryName": "Major Championships",
+      "questions": [
+        {
+          "question": "Who has won the most major championships in golf?",
+          "questionId": "f598c75a-8d28-4339-ab5d-4b58ecb3723f",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Jack Nicklaus"
+            },
+            {
+              "answerId": "ab",
+              "text": "Tiger Woods"
+            },
+            {
+              "answerId": "ac",
+              "text": "Arnold Palmer"
+            },
+            {
+              "answerId": "ad",
+              "text": "Gary Player"
+            }
+          ],
+          "correctAnswerId": "aa",
+          "explanation": "Jack Nicklaus has won the most major championships in golf, with a total of 18.",
+          "difficulty": "Medium",
+          "categoryName": "Golf",
+          "advancedCategoryName": "Major Championships",
+          "categoryId": "19ea26ef-bb0c-42af-bff6-e2b6f4f5e8e4"
+        }
+      ]
+    },
+    {
+      "categoryId": "d2130e53-1ef4-4d3f-9128-35c38d433223",
+      "categoryName": "Hockey",
+      "advancedCategoryName": "Stanley Cup Winners",
+      "questions": [
+        {
+          "question": "Which team has won the most Stanley Cup championships?",
+          "questionId": "b898872d-2b9d-4f6d-ab52-bcfb7fdcf104",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Boston Bruins"
+            },
+            {
+              "answerId": "ab",
+              "text": "Montreal Canadiens"
+            },
+            {
+              "answerId": "ac",
+              "text": "Detroit Red Wings"
+            },
+            {
+              "answerId": "ad",
+              "text": "Toronto Maple Leafs"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "The Montreal Canadiens have won the most Stanley Cup championships, with a total of 24.",
+          "difficulty": "Medium",
+          "categoryName": "Hockey",
+          "advancedCategoryName": "Stanley Cup Winners",
+          "categoryId": "d2130e53-1ef4-4d3f-9128-35c38d433223"
+        }
+      ]
+    },
+    {
+      "categoryId": "be87787f-063b-4627-990d-99c178b76e99",
+      "categoryName": "Cycling",
+      "advancedCategoryName": "Tour de France Records",
+      "questions": [
+        {
+          "question": "Who has won the most Tour de France titles?",
+          "questionId": "e6f5b61a-894e-4239-b3e9-12db6f1f233b",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Miguel Indurain"
+            },
+            {
+              "answerId": "ab",
+              "text": "Eddy Merckx"
+            },
+            {
+              "answerId": "ac",
+              "text": "Lance Armstrong*"
+            },
+            {
+              "answerId": "ad",
+              "text": "Chris Froome"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "Eddy Merckx, Jacques Anquetil, Bernard Hinault, and Miguel Indurain each won the Tour de France five times. Lance Armstrong had won seven titles, but they were revoked due to doping offenses.",
+          "difficulty": "Very Hard",
+          "categoryName": "Cycling",
+          "advancedCategoryName": "Tour de France Records",
+          "categoryId": "be87787f-063b-4627-990d-99c178b76e99"
+        }
+      ]
+    },
+    {
+      "categoryId": "e5fabd04-cd10-426e-88f9-5f6293609df3",
+      "categoryName": "History",
+      "advancedCategoryName": "Ancient civilizations",
+      "questions": [
+        {
+          "question": "Who was the first pharaoh of Egypt?",
+          "questionId": "f8af7c3c-3f93-4229-9533-4292de17ecd9",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Ramses II"
+            },
+            {
+              "answerId": "ab",
+              "text": "Tutankhamun"
+            },
+            {
+              "answerId": "ac",
+              "text": "Narmer"
+            },
+            {
+              "answerId": "ad",
+              "text": "Cleopatra"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "Narmer is historically recognized as the first pharaoh of Egypt, who is thought to have unified Upper and Lower Egypt.",
+          "difficulty": "Easy",
+          "categoryName": "History",
+          "advancedCategoryName": "Ancient civilizations",
+          "categoryId": "e5fabd04-cd10-426e-88f9-5f6293609df3"
+        },
+        {
+          "categoryId": "e5fabd04-cd10-426e-88f9-5f6293609df3",
+          "question": "Which event started World War I?",
+          "questionId": "c12f3731-4aea-439b-9253-827cbe43c978",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "The assassination of Archduke Franz Ferdinand"
+            },
+            {
+              "answerId": "ab",
+              "text": "The invasion of Poland by Germany"
+            },
+            {
+              "answerId": "ac",
+              "text": "The signing of the Treaty of Versailles"
+            },
+            {
+              "answerId": "ad",
+              "text": "The Russian Revolution"
+            }
+          ],
+          "correctAnswerId": "aa",
+          "explanation": "The assassination of Archduke Franz Ferdinand of Austria-Hungary in 1914 is widely regarded as the immediate trigger that set off World War I.",
+          "difficulty": "Easy",
+          "categoryName": "History",
+          "advancedCategoryName": "European history"
+        },
+        {
+          "categoryId": "e5fabd04-cd10-426e-88f9-5f6293609df3",
+          "question": "Who was the 16th president of the United States?",
+          "questionId": "281b052c-5238-47b5-9504-d8b7ad41e610",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Thomas Jefferson"
+            },
+            {
+              "answerId": "ab",
+              "text": "Abraham Lincoln"
+            },
+            {
+              "answerId": "ac",
+              "text": "George Washington"
+            },
+            {
+              "answerId": "ad",
+              "text": "Franklin D. Roosevelt"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "Abraham Lincoln served as the 16th president of the United States, leading the country through its Civil War and ending slavery.",
+          "difficulty": "Easy",
+          "categoryName": "History",
+          "advancedCategoryName": "U.S. history"
+        },
+        {
+          "categoryId": "e5fabd04-cd10-426e-88f9-5f6293609df3",
+          "question": "Who was the first female Prime Minister of the United Kingdom?",
+          "questionId": "694bc56d-b95f-4c28-b055-280bd04cc26a",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Indira Gandhi"
+            },
+            {
+              "answerId": "ab",
+              "text": "Golda Meir"
+            },
+            {
+              "answerId": "ac",
+              "text": "Margaret Thatcher"
+            },
+            {
+              "answerId": "ad",
+              "text": "Angela Merkel"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "Margaret Thatcher was the first woman to become prime minister of the United Kingdom, serving from 1979 to 1990.",
+          "difficulty": "Medium",
+          "categoryName": "History",
+          "advancedCategoryName": "World leaders"
+        },
+        {
+          "categoryId": "e5fabd04-cd10-426e-88f9-5f6293609df3",
+          "question": "The Storming of the Bastille occurred during which revolution?",
+          "questionId": "40290a93-28f9-45bb-9278-d95ec5fe7335",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "The American Revolution"
+            },
+            {
+              "answerId": "ab",
+              "text": "The Russian Revolution"
+            },
+            {
+              "answerId": "ac",
+              "text": "The French Revolution"
+            },
+            {
+              "answerId": "ad",
+              "text": "The Cuban Revolution"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "The Storming of the Bastille is a key event in the French Revolution, occurring on July 14, 1789.",
+          "difficulty": "Medium",
+          "categoryName": "History",
+          "advancedCategoryName": "Revolutionary history"
+        },
+        {
+          "categoryId": "e5fabd04-cd10-426e-88f9-5f6293609df3",
+          "question": "The Rosetta Stone was crucial in the understanding of which ancient script?",
+          "questionId": "4d6c2998-dfb2-4cce-a359-41573482e223",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Sumerian"
+            },
+            {
+              "answerId": "ab",
+              "text": "Hieroglyphics"
+            },
+            {
+              "answerId": "ac",
+              "text": "Cuneiform"
+            },
+            {
+              "answerId": "ad",
+              "text": "Norse Runes"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "The Rosetta Stone was instrumental in deciphering Egyptian hieroglyphics, as it contained the same text in three scripts including Greek.",
+          "difficulty": "Medium",
+          "categoryName": "History",
+          "advancedCategoryName": "Ancient artifacts"
+        },
+        {
+          "categoryId": "e5fabd04-cd10-426e-88f9-5f6293609df3",
+          "question": "Who was the first person to circumnavigate the globe?",
+          "questionId": "ed9f7299-0099-49ce-abde-fdee8a1a790e",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Christopher Columbus"
+            },
+            {
+              "answerId": "ab",
+              "text": "Ferdinand Magellan"
+            },
+            {
+              "answerId": "ac",
+              "text": "Vasco da Gama"
+            },
+            {
+              "answerId": "ad",
+              "text": "Sir Francis Drake"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "Although Ferdinand Magellan led the expedition, he died before its completion. It was Juan Sebastián Elcano who completed the journey, making him and the surviving crew the first to circumnavigate the globe. However, Magellan is often credited with the achievement.",
+          "difficulty": "Hard",
+          "categoryName": "History",
+          "advancedCategoryName": "Exploration"
+        },
+        {
+          "categoryId": "e5fabd04-cd10-426e-88f9-5f6293609df3",
+          "question": "Which French king was known as the \"Sun King\"?",
+          "questionId": "fa155aa5-7550-4831-accf-d68186fde390",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Louis XIV"
+            },
+            {
+              "answerId": "ab",
+              "text": "Henry IV"
+            },
+            {
+              "answerId": "ac",
+              "text": "Charles de Gaulle"
+            },
+            {
+              "answerId": "ad",
+              "text": "Napoleon Bonaparte"
+            }
+          ],
+          "correctAnswerId": "aa",
+          "explanation": "Louis XIV of France, who reigned for 72 years, was known as the \"Sun King\" for his powerful monarchy that exemplified the absolute rule.",
+          "difficulty": "Medium",
+          "categoryName": "History",
+          "advancedCategoryName": "European monarchs"
+        },
+        {
+          "categoryId": "e5fabd04-cd10-426e-88f9-5f6293609df3",
+          "question": "What battle is considered Napoleon's last?",
+          "questionId": "db3944dd-0412-4fec-8707-aeaabef79cc4",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Battle of Waterloo"
+            },
+            {
+              "answerId": "ab",
+              "text": "Battle of Trafalgar"
+            },
+            {
+              "answerId": "ac",
+              "text": "Battle of Austerlitz"
+            },
+            {
+              "answerId": "ad",
+              "text": "Battle of Borodino"
+            }
+          ],
+          "correctAnswerId": "aa",
+          "explanation": "The Battle of Waterloo in 1815 is considered Napoleon Bonaparte's final battle, after which he was exiled to the island of Saint Helena.",
+          "difficulty": "Hard",
+          "categoryName": "History",
+          "advancedCategoryName": "Military conflicts"
+        },
+        {
+          "categoryId": "e5fabd04-cd10-426e-88f9-5f6293609df3",
+          "question": "Who is considered the father of modern physics?",
+          "questionId": "79ba2cf1-38f5-4f70-994f-92d9f106d4cd",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Isaac Newton"
+            },
+            {
+              "answerId": "ab",
+              "text": "Albert Einstein"
+            },
+            {
+              "answerId": "ac",
+              "text": "Nikola Tesla"
+            },
+            {
+              "answerId": "ad",
+              "text": "Galileo Galilei"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "Although many scientists have significantly contributed to the field, Albert Einstein's theory of relativity revolutionized our understanding of physics, making him the father of modern physics.",
+          "difficulty": "Very challenging",
+          "categoryName": "History",
+          "advancedCategoryName": "Scientific advancements"
+        }
+      ]
+    },
+    {
+      "categoryId": "a199309e-b7c6-4918-ae6b-687c11b0eea2",
+      "categoryName": "Classical music",
+      "advancedCategoryName": "Composers",
+      "questions": [
+        {
+          "question": "Who composed the famous four-note opening motif of the symphony No. 5 in C minor, Op. 67?",
+          "questionId": "6552f2be-d1c1-49ea-a054-93f3d732fa94",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Johannes Brahms"
+            },
+            {
+              "answerId": "ab",
+              "text": "Ludwig van Beethoven"
+            },
+            {
+              "answerId": "ac",
+              "text": "Wolfgang Amadeus Mozart"
+            },
+            {
+              "answerId": "ad",
+              "text": "Franz Schubert"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "The motif is known worldwide and has been featured in various media. Beethoven's Symphony No. 5 is one of the most recognized and popular compositions in classical music.",
+          "difficulty": "Easy",
+          "categoryName": "Classical music",
+          "advancedCategoryName": "Composers",
+          "categoryId": "a199309e-b7c6-4918-ae6b-687c11b0eea2"
+        },
+        {
+          "categoryId": "a199309e-b7c6-4918-ae6b-687c11b0eea2",
+          "question": "Who composed the \"Minute Waltz\"?",
+          "questionId": "e506af99-4f2e-47b5-bef6-57747d0d9e8f",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Johannes Brahms"
+            },
+            {
+              "answerId": "ab",
+              "text": "Ludwig van Beethoven"
+            },
+            {
+              "answerId": "ac",
+              "text": "Frédéric Chopin"
+            },
+            {
+              "answerId": "ad",
+              "text": "Franz Schubert"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "The \"Minute Waltz\" is actually titled Waltz in D flat major, Op. 64, No. 1, but is nicknamed the \"Minute Waltz\". It was composed by Frédéric Chopin.",
+          "difficulty": "Medium",
+          "categoryName": "Classical music",
+          "advancedCategoryName": "Romantic era composers"
+        }
+      ]
+    },
+    {
+      "categoryId": "54c367b8-2303-4c66-bd2c-d50e50985efb",
+      "categoryName": "Pop music",
+      "advancedCategoryName": "21st-century pop stars",
+      "questions": [
+        {
+          "question": "Which artist is known for their 2014 hit song \"Happy\"?",
+          "questionId": "c6332f2f-3d02-4783-ab13-76699d51d518",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Bruno Mars"
+            },
+            {
+              "answerId": "ab",
+              "text": "Pharrell Williams"
+            },
+            {
+              "answerId": "ac",
+              "text": "Justin Timberlake"
+            },
+            {
+              "answerId": "ad",
+              "text": "Ed Sheeran"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "\"Happy\" was a chart-topping hit and was also featured on the soundtrack of the movie \"Despicable Me 2\".",
+          "difficulty": "Easy",
+          "categoryName": "Pop music",
+          "advancedCategoryName": "21st-century pop stars",
+          "categoryId": "54c367b8-2303-4c66-bd2c-d50e50985efb"
+        }
+      ]
+    },
+    {
+      "categoryId": "35792640-5fab-423c-85d6-1a80441020e4",
+      "categoryName": "Jazz music",
+      "advancedCategoryName": "Jazz subgenres",
+      "questions": [
+        {
+          "question": "Which of the following is NOT a subgenre of jazz music?",
+          "questionId": "5b2ab9e4-0220-4afe-a3ce-5a1fab3f0dd6",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Beebop"
+            },
+            {
+              "answerId": "ab",
+              "text": "Ska"
+            },
+            {
+              "answerId": "ac",
+              "text": "Swing"
+            },
+            {
+              "answerId": "ad",
+              "text": "Dixieland"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "While bebop, swing, and Dixieland are jazz subgenres that developed at different times in the history of jazz, ska is a music genre that originated in Jamaica in the late 1950s.",
+          "difficulty": "Medium",
+          "categoryName": "Jazz music",
+          "advancedCategoryName": "Jazz subgenres",
+          "categoryId": "35792640-5fab-423c-85d6-1a80441020e4"
+        }
+      ]
+    },
+    {
+      "categoryId": "cdb09e3a-934e-43ca-8560-ee5f8febfca9",
+      "categoryName": "Music theory",
+      "advancedCategoryName": "Musical notation",
+      "questions": [
+        {
+          "question": "What does a \"fermata\" denote in musical notation?",
+          "questionId": "fba2e943-890f-414a-a108-bbe74ba64db0",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "A sharp note"
+            },
+            {
+              "answerId": "ab",
+              "text": "A silent beat"
+            },
+            {
+              "answerId": "ac",
+              "text": "A note held longer than its normal duration"
+            },
+            {
+              "answerId": "ad",
+              "text": "The end of a musical piece"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "A fermata is a symbol placed over a note or a rest to indicate that it should be held longer than its normal duration.",
+          "difficulty": "Medium",
+          "categoryName": "Music theory",
+          "advancedCategoryName": "Musical notation",
+          "categoryId": "cdb09e3a-934e-43ca-8560-ee5f8febfca9"
+        }
+      ]
+    },
+    {
+      "categoryId": "8b46e741-3090-424f-9ba9-ae745393aa9f",
+      "categoryName": "Opera",
+      "advancedCategoryName": "Famous operas",
+      "questions": [
+        {
+          "question": "Which opera features the character Figaro as a main character?",
+          "questionId": "2c894883-74d0-47d8-b485-122e4cb70975",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Carmen"
+            },
+            {
+              "answerId": "ab",
+              "text": "La Bohème"
+            },
+            {
+              "answerId": "ac",
+              "text": "The Magic Flute"
+            },
+            {
+              "answerId": "ad",
+              "text": "The Marriage of Figaro"
+            }
+          ],
+          "correctAnswerId": "ad",
+          "explanation": "Figaro is the main character in \"The Marriage of Figaro\" (\"Le nozze di Figaro\"), which is an opera composed by Wolfgang Amadeus Mozart.",
+          "difficulty": "Medium",
+          "categoryName": "Opera",
+          "advancedCategoryName": "Famous operas",
+          "categoryId": "8b46e741-3090-424f-9ba9-ae745393aa9f"
+        }
+      ]
+    },
+    {
+      "categoryId": "cd992338-ee89-4f87-9c1d-f0571bde002a",
+      "categoryName": "Rock music",
+      "advancedCategoryName": "British rock bands",
+      "questions": [
+        {
+          "question": "Which British rock band was led by the singer Freddie Mercury?",
+          "questionId": "1b8442fd-f660-4921-9faf-304570f7bbde",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "The Beatles"
+            },
+            {
+              "answerId": "ab",
+              "text": "Led Zeppelin"
+            },
+            {
+              "answerId": "ac",
+              "text": "Queen"
+            },
+            {
+              "answerId": "ad",
+              "text": "The Rolling Stones"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "Queen was led by Freddie Mercury, one of rock music's most dynamic and versatile performers until his death in 1991.",
+          "difficulty": "Easy",
+          "categoryName": "Rock music",
+          "advancedCategoryName": "British rock bands",
+          "categoryId": "cd992338-ee89-4f87-9c1d-f0571bde002a"
+        }
+      ]
+    },
+    {
+      "categoryId": "2c58d50b-9b71-4ae4-af4c-84ecb5bef0f4",
+      "categoryName": "Music history",
+      "advancedCategoryName": "Classical period",
+      "questions": [
+        {
+          "question": "Who is known as the \"Father of the Symphony\" for his contributions to the development of the symphony?",
+          "questionId": "69dbdac1-26d0-403f-b5dc-87b2f300d24e",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Joseph Haydn"
+            },
+            {
+              "answerId": "ab",
+              "text": "Ludwig van Beethoven"
+            },
+            {
+              "answerId": "ac",
+              "text": "Wolfgang Amadeus Mozart"
+            },
+            {
+              "answerId": "ad",
+              "text": "Franz Schubert"
+            }
+          ],
+          "correctAnswerId": "aa",
+          "explanation": "Joseph Haydn is often referred to as the \"Father of the Symphony\" due to his significant contributions and improvements to the symphonic form.",
+          "difficulty": "Medium",
+          "categoryName": "Music history",
+          "advancedCategoryName": "Classical period",
+          "categoryId": "2c58d50b-9b71-4ae4-af4c-84ecb5bef0f4"
+        }
+      ]
+    },
+    {
+      "categoryId": "de7159f2-9412-44e5-be12-ff41c2cfc15d",
+      "categoryName": "World music",
+      "advancedCategoryName": "African music instruments",
+      "questions": [
+        {
+          "question": "Which of these instruments is a traditional West African drum?",
+          "questionId": "032b12b9-b078-4568-ae87-3eb9d8638866",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Sitar"
+            },
+            {
+              "answerId": "ab",
+              "text": "Djembe"
+            },
+            {
+              "answerId": "ac",
+              "text": "Didgeridoo"
+            },
+            {
+              "answerId": "ad",
+              "text": "Ukulele"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "The djembe is a rope-tuned skin-covered goblet drum played with bare hands, originally from West Africa.",
+          "difficulty": "Easy",
+          "categoryName": "World music",
+          "advancedCategoryName": "African music instruments",
+          "categoryId": "de7159f2-9412-44e5-be12-ff41c2cfc15d"
+        }
+      ]
+    },
+    {
+      "categoryId": "c75bc1f0-3b55-4a67-8053-bf10dd08f91f",
+      "categoryName": "Music production",
+      "advancedCategoryName": "Audio technology",
+      "questions": [
+        {
+          "question": "What does MIDI stand for in music production?",
+          "questionId": "a42e04f0-d7e5-47b4-9c3e-5e058761e78a",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Musical Instrument Digital Interface"
+            },
+            {
+              "answerId": "ab",
+              "text": "Music Integrated Digital Input"
+            },
+            {
+              "answerId": "ac",
+              "text": "Musical Interval Data Interface"
+            },
+            {
+              "answerId": "ad",
+              "text": "Multiple Instrumentation Digital Interface"
+            }
+          ],
+          "correctAnswerId": "aa",
+          "explanation": "MIDI, or Musical Instrument Digital Interface, is a technical standard that describes a communications protocol, digital interface, and connectors that allow a wide variety of electronic musical instruments, computers, and other related devices to connect and communicate with one another.",
+          "difficulty": "Medium",
+          "categoryName": "Music production",
+          "advancedCategoryName": "Audio technology",
+          "categoryId": "c75bc1f0-3b55-4a67-8053-bf10dd08f91f"
+        }
+      ]
+    },
+    {
+      "categoryId": "0380eb62-5e9d-42ab-9283-3173ab8433d1",
+      "categoryName": "Marine Biology",
+      "advancedCategoryName": "Puffer Fish Facts",
+      "questions": [
+        {
+          "questionId": "4e7d7a3e-f31d-4bda-8cbf-e98f7b6a8a2e",
+          "question": "Which of the following substances makes the puffer fish highly toxic?",
+          "answers": [
+            {
+              "answerId": "a1",
+              "text": "Saxitoxin"
+            },
+            {
+              "answerId": "a2",
+              "text": "Tetrodotoxin"
+            },
+            {
               "answerId": "a3",
-              "text": "Uruguay"
+              "text": "Cyanotoxin"
             },
             {
               "answerId": "a4",
-              "text": "Italy"
+              "text": "Batrachotoxin"
+            }
+          ],
+          "correctAnswerId": "a2",
+          "difficulty": "hard",
+          "explanation": "Puffer fish contain tetrodotoxin, a substance that makes them extremely toxic. Tetrodotoxin is several times more poisonous than cyanide and is a potent neurotoxin with no known antidote.",
+          "categoryName": "Marine Biology",
+          "advancedCategoryName": "Puffer Fish Facts",
+          "generatedBy": "thecalminsanity",
+          "categoryId": "0380eb62-5e9d-42ab-9283-3173ab8433d1"
+        },
+        {
+          "categoryId": "0380eb62-5e9d-42ab-9283-3173ab8433d1",
+          "questionId": "bf3c9e2e-3467-4e48-afc4-8d0efb9c6c2a",
+          "question": "Which of the following puffer fish is known for its unique ability to inflate itself significantly as a defense mechanism against predators?",
+          "answers": [
+            {
+              "answerId": "a1",
+              "text": "Lionfish"
+            },
+            {
+              "answerId": "a2",
+              "text": "Clownfish"
+            },
+            {
+              "answerId": "a3",
+              "text": "Porcupinefish"
+            },
+            {
+              "answerId": "a4",
+              "text": "Mandarinfish"
             }
           ],
           "correctAnswerId": "a3",
           "difficulty": "Medium",
-          "explanation": "The first ever FIFA World Cup was held in 1930, and it was won by Uruguay. The tournament took place in Uruguay from July 13 to July 30, 1930. Uruguay won the final against Argentina with a score of 4-2, securing their place as the first ever World Cup champions. This victory was especially significant as it marked the centennial celebration of Uruguay's first constitution."
+          "explanation": "The Porcupinefish has the unique ability among puffer fish to inflate itself significantly, it also has spines that protrude outwards when inflated, making it harder for predators to eat.",
+          "categoryName": "Marine Biology",
+          "advancedCategoryName": "Puffer Fish Species",
+          "generatedBy": "thecalminsanity"
+        }
+      ]
+    },
+    {
+      "categoryId": "2f569388-f3eb-4387-9310-75d7a1456502",
+      "categoryName": "Sports",
+      "advancedCategoryName": "Olympic History",
+      "questions": [
+        {
+          "questionId": "b78f4ee0-a8f7-4c3f-bc45-97b2f688d9c1",
+          "question": "Which country topped the medal table at the Tokyo 2020 Summer Olympics?",
+          "answers": [
+            {
+              "answerId": "a1",
+              "text": "United States"
+            },
+            {
+              "answerId": "a2",
+              "text": "China"
+            },
+            {
+              "answerId": "a3",
+              "text": "Japan"
+            },
+            {
+              "answerId": "a4",
+              "text": "Great Britain"
+            }
+          ],
+          "correctAnswerId": "a1",
+          "difficulty": "Medium",
+          "explanation": "The United States topped the medal table at the Tokyo 2020 Summer Olympics, leading the count with 113 medals in total, including 39 gold, 41 silver, and 33 bronze.",
+          "categoryName": "Sports",
+          "advancedCategoryName": "Olympic History",
+          "generatedBy": "thecalminsanity",
+          "categoryId": "2f569388-f3eb-4387-9310-75d7a1456502"
         }
       ]
     }

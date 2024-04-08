@@ -1,48 +1,29 @@
-import React, { useState, useEffect } from 'react';
-import { useParams, useLocation } from 'react-router-dom';
-import { Box, Button, Typography, CircularProgress } from '@mui/material';
+import { Box, Button, CircularProgress, Typography } from "@mui/material";
 import CheckIcon from '@mui/icons-material/Check';
 import CloseIcon from '@mui/icons-material/Close';
-import axios from 'axios'; // Ensure axios is installed for HTTP requests
-import triviaData from '../../triviaData.json'; // Adjust the path as necessary
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-function QuizPage() {
-  const { categoryId } = useParams();
-  const location = useLocation();
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0); // Added state for tracking current question index
-  const [currentQuestion, setCurrentQuestion] = useState(null);
+function TriviaEngine({ handleNextQuestion, currentQuestion, customCta }) {
   const [explanation, setExplanation] = useState(null);
   const [selectedAnswer, setSelectedAnswer] = useState('');
-
-  const fetchCustomCategoryQuestion = (customCategory) => {
-    axios.get(`http://localhost:3001/get-question?category=${encodeURIComponent(customCategory)}`)
-      .then(response => {
-        const questionsArray = response.data.questions;
-        const randomQuestionIndex = Math.floor(Math.random() * questionsArray.length);
-        setCurrentQuestion(questionsArray[randomQuestionIndex])
-      })
-      .catch(error => console.error("Failed to fetch custom category question:", error));
-  };
+  const navigate = useNavigate();
 
   useEffect(() => {
-    if (categoryId !== 'custom') {
-      const category = triviaData.categories.find(c => c.categoryId === categoryId);
-      if (category && category.questions.length > 0) {
-        setCurrentQuestion(category.questions[currentQuestionIndex]); // Use the currentQuestionIndex to select the question
-        setExplanation(null);
-        setSelectedAnswer('');
-      }
-    } else {
-      const params = new URLSearchParams(location.search);
-      const customCategory = params.get('category');
-      fetchCustomCategoryQuestion(customCategory);
-    }
-  }, [categoryId, location.search, currentQuestionIndex]); // Add currentQuestionIndex as a dependency
+    setSelectedAnswer('');
+    setExplanation(null);
+  }, [currentQuestion]);
 
   const handleSelectAnswer = (answerId) => {
     setSelectedAnswer(answerId);
     setExplanation(currentQuestion.explanation);
   };
+
+  const handleClickNext = () => {
+    setSelectedAnswer('');
+    setExplanation(null);
+    handleNextQuestion();
+  }
 
   const getButtonStyles = (answer) => {
     const isCorrectAnswer = answer === currentQuestion.correctAnswerId;
@@ -105,13 +86,6 @@ function QuizPage() {
     return null;
   };
 
-  const handleNextQuestion = () => {
-    const category = triviaData.categories.find(c => c.categoryId === categoryId);
-    if (currentQuestionIndex < category.questions.length - 1) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1); // Move to next question
-    }
-  };
-
   if (!currentQuestion) {
     return <CircularProgress />;
   }
@@ -119,8 +93,11 @@ function QuizPage() {
   return (
     <Box sx={{ mt: 4, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <Typography variant="h5" sx={{ mb: 2 }}>
-        {currentQuestion.question}
+        {currentQuestion.categoryName} - {currentQuestion.question} - {currentQuestion.difficulty}
       </Typography>
+      {currentQuestion.generatedBy &&
+        <Typography sx={{ mt: 2 }}>Custom category and question submitted by {currentQuestion.generatedBy}</Typography>
+      }
       {currentQuestion.answers.map((answer, index) => (
         <Button
           key={index}
@@ -134,18 +111,25 @@ function QuizPage() {
         </Button>
       ))}
       <Typography sx={{ mt: 2 }}>{explanation}</Typography>
-      {selectedAnswer && currentQuestionIndex < triviaData.categories.find(c => c.categoryId === categoryId).questions.length - 1 && (
+      {selectedAnswer && (
         <Button
           variant="contained"
           color="primary"
-          onClick={handleNextQuestion}
+          onClick={handleClickNext}
           sx={{ mt: 2 }}
         >
-          Next Question
+          {customCta || 'Next Question'}
         </Button>
       )}
+      <Button
+        key={`${(currentQuestion?.categoryId) || 'custom'}-button`}
+        variant="outlined"
+        sx={{ mb: 1, width: '50%', fontSize: '1rem' }}
+        onClick={() => navigate('/categories')}
+      >
+        Back to categories
+      </Button>
     </Box>
   );
 }
-
-export default QuizPage;
+export default TriviaEngine;

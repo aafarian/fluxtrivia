@@ -20,29 +20,39 @@ function CategoriesPage() {
   }, []);
 
   const handleSelectCategory = (categoryId) => {
-    navigate(`/quiz/${categoryId}`);
+    navigate(`/trivia/${categoryId}`);
   };
 
   const handleCustomCategorySubmit = (event) => {
     if (customCategory) {
-      // Navigate to QuizPage with the custom category as a parameter or state
-      navigate(`/quiz/custom?category=${encodeURIComponent(customCategory)}`);
+      // Navigate to TriviaPage with the custom category as a parameter or state
+      navigate(`/trivia/custom?category=${encodeURIComponent(customCategory)}`);
     }
   };
 
   return (
     <Box sx={{ mt: 4, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <Typography variant="h4" sx={{ mb: 2 }}>Select a Category</Typography>
-      {categories.map((category) => (
-        <Button
-          key={category.categoryId}
-          variant="outlined"
-          sx={{ mb: 1, width: '50%', fontSize: '1rem' }}
-          onClick={() => handleSelectCategory(category.categoryId)}
-        >
-          {category.name}
-        </Button>
-      ))}
+      <Button
+        variant="outlined"
+        color="secondary"
+        sx={{ mb: 2, width: '50%', fontSize: '1rem' }}
+        onClick={() => handleSelectCategory('random')}
+      >
+        Random
+      </Button>
+      {
+        categories.map((category) => (
+          <Button
+            key={category.categoryId}
+            variant="outlined"
+            sx={{ mb: 1, width: '50%', fontSize: '1rem' }}
+            onClick={() => handleSelectCategory(category.categoryId)}
+          >
+            {category.categoryName}
+          </Button>
+        ))
+      }
       <form onSubmit={handleCustomCategorySubmit}>
         <TextField
           label="Custom Category"
@@ -55,7 +65,7 @@ function CategoriesPage() {
           Submit
         </Button>
       </form>
-    </Box>
+    </Box >
   );
 }
 
