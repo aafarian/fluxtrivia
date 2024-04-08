@@ -1,455 +1,6 @@
 {
   "categories": [
     {
-      "categoryId": "44c566b7-f115-4b70-b1ad-05374f027abe",
-      "categoryName": "Physics",
-      "advancedCategoryName": "Quantum Mechanics",
-      "questions": [
-        {
-          "question": "What is the name given to the phenomenon whereby a particle can exist in multiple states at once until it is observed?",
-          "questionId": "764ad8b2-9639-4edb-9d69-ae1b1e34e93e",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Heisenberg Uncertainty Principle"
-            },
-            {
-              "answerId": "ab",
-              "text": "Schrödinger's Cat"
-            },
-            {
-              "answerId": "ac",
-              "text": "Quantum Entanglement"
-            },
-            {
-              "answerId": "ad",
-              "text": "Wave-Particle Duality"
-            }
-          ],
-          "correctAnswerId": "ab",
-          "explanation": "This phenomenon is famously illustrated by the thought experiment known as Schrödinger's Cat, where a cat in a box is simultaneously alive and dead until the box is opened and the cat is observed.",
-          "difficulty": "Easy",
-          "categoryId": "44c566b7-f115-4b70-b1ad-05374f027abe"
-        }
-      ]
-    },
-    {
-      "categoryId": "2fe4311a-5f2e-42c2-8dab-ff83f4b3eceb",
-      "categoryName": "Biology",
-      "advancedCategoryName": "Genetics",
-      "questions": [
-        {
-          "question": "Which of the following is not a nucleotide found in DNA?",
-          "questionId": "e74852a6-95be-4787-8e1a-4198aebd1e50",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Adenine"
-            },
-            {
-              "answerId": "ab",
-              "text": "Cytosine"
-            },
-            {
-              "answerId": "ac",
-              "text": "Uracil"
-            },
-            {
-              "answerId": "ad",
-              "text": "Thymine"
-            }
-          ],
-          "correctAnswerId": "ac",
-          "explanation": "Uracil is a nucleotide found in RNA, replacing Thymine found in DNA.",
-          "difficulty": "Medium",
-          "categoryId": "2fe4311a-5f2e-42c2-8dab-ff83f4b3eceb"
-        }
-      ]
-    },
-    {
-      "categoryId": "0cc53961-ca08-4e09-96f9-961c459e18b9",
-      "categoryName": "Astronomy",
-      "advancedCategoryName": "Cosmology",
-      "questions": [
-        {
-          "question": "What is considered the most distant object observable with current technology in the universe?",
-          "questionId": "f86d8259-f1e3-4aa8-a8b0-2cb396f79772",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "The Andromeda Galaxy"
-            },
-            {
-              "answerId": "ab",
-              "text": "The Cosmic Microwave Background Radiation"
-            },
-            {
-              "answerId": "ac",
-              "text": "GN-z11, a high-redshift galaxy"
-            },
-            {
-              "answerId": "ad",
-              "text": "The Hubble Deep Field"
-            }
-          ],
-          "correctAnswerId": "ab",
-          "explanation": "The Cosmic Microwave Background Radiation is the thermal remnant from the early universe, about 380,000 years after the Big Bang, making it the most distant (in terms of time and space) observable phenomenon.",
-          "difficulty": "Very Challenging",
-          "categoryId": "0cc53961-ca08-4e09-96f9-961c459e18b9"
-        }
-      ]
-    },
-    {
-      "categoryId": "f0f11630-eb6a-4864-8c71-8ca10a383b66",
-      "categoryName": "Football",
-      "advancedCategoryName": "Historical Players",
-      "questions": [
-        {
-          "question": "Who scored the \"Hand of God\" goal in the 1986 World Cup?",
-          "questionId": "fda69545-0407-4154-be4a-32206ac344c3",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Diego Maradona"
-            },
-            {
-              "answerId": "ab",
-              "text": "Pelé"
-            },
-            {
-              "answerId": "ac",
-              "text": "Lionel Messi"
-            },
-            {
-              "answerId": "ad",
-              "text": "Ronaldo"
-            }
-          ],
-          "correctAnswerId": "aa",
-          "explanation": "The \"Hand of God\" goal was scored by Diego Maradona during the quarter-final match between Argentina and England.",
-          "difficulty": "Easy",
-          "categoryName": "Football",
-          "advancedCategoryName": "Historical Players",
-          "categoryId": "f0f11630-eb6a-4864-8c71-8ca10a383b66"
-        }
-      ]
-    },
-    {
-      "categoryId": "856c51c0-64c0-40f2-b767-ddc112a43a08",
-      "categoryName": "Tennis",
-      "advancedCategoryName": "Grand Slam Titles",
-      "questions": [
-        {
-          "question": "Which female tennis player has won the most Grand Slam singles titles?",
-          "questionId": "15e3eda6-dd01-40eb-b825-6cd86e57e98a",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Serena Williams"
-            },
-            {
-              "answerId": "ab",
-              "text": "Steffi Graf"
-            },
-            {
-              "answerId": "ac",
-              "text": "Margaret Court"
-            },
-            {
-              "answerId": "ad",
-              "text": "Martina Navratilova"
-            }
-          ],
-          "correctAnswerId": "ac",
-          "explanation": "Margaret Court holds the record for the most Grand Slam singles titles won by a female player, with a total of 24 titles.",
-          "difficulty": "Medium",
-          "categoryName": "Tennis",
-          "advancedCategoryName": "Grand Slam Titles",
-          "categoryId": "856c51c0-64c0-40f2-b767-ddc112a43a08"
-        }
-      ]
-    },
-    {
-      "categoryId": "d126ec83-a914-43b8-beac-f2eaa934d1ab",
-      "categoryName": "Basketball",
-      "advancedCategoryName": "NBA Records",
-      "questions": [
-        {
-          "question": "Who holds the record for the most points scored in a single NBA game?",
-          "questionId": "7675ac07-1b15-4d21-8e7f-7ef269ab72fe",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "LeBron James"
-            },
-            {
-              "answerId": "ab",
-              "text": "Michael Jordan"
-            },
-            {
-              "answerId": "ac",
-              "text": "Kobe Bryant"
-            },
-            {
-              "answerId": "ad",
-              "text": "Wilt Chamberlain"
-            }
-          ],
-          "correctAnswerId": "ad",
-          "explanation": "Wilt Chamberlain holds the record for most points scored in a single NBA game, scoring 100 points for the Philadelphia Warriors in a game against the New York Knicks on March 2, 1962.",
-          "difficulty": "Medium",
-          "categoryName": "Basketball",
-          "advancedCategoryName": "NBA Records",
-          "categoryId": "d126ec83-a914-43b8-beac-f2eaa934d1ab"
-        }
-      ]
-    },
-    {
-      "categoryId": "dbc8c812-06d2-488b-971f-38751d892a3a",
-      "categoryName": "Athletics",
-      "advancedCategoryName": "Olympic Records",
-      "questions": [
-        {
-          "question": "Who is the first athlete to win the Olympic 100m title three times in a row?",
-          "questionId": "b3f57f96-49fa-4b64-bce8-4363455459bd",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Carl Lewis"
-            },
-            {
-              "answerId": "ab",
-              "text": "Usain Bolt"
-            },
-            {
-              "answerId": "ac",
-              "text": "Maurice Greene"
-            },
-            {
-              "answerId": "ad",
-              "text": "Jesse Owens"
-            }
-          ],
-          "correctAnswerId": "ab",
-          "explanation": "Usain Bolt is the first athlete to win the Olympic 100m title three times in a row, achieving this feat in 2008, 2012, and 2016.",
-          "difficulty": "Medium",
-          "categoryName": "Athletics",
-          "advancedCategoryName": "Olympic Records",
-          "categoryId": "dbc8c812-06d2-488b-971f-38751d892a3a"
-        }
-      ]
-    },
-    {
-      "categoryId": "b1f61900-dac7-4c02-a9a5-7a5366004a32",
-      "categoryName": "Cricket",
-      "advancedCategoryName": "World Cup History",
-      "questions": [
-        {
-          "question": "Which country won the first Cricket World Cup in 1975?",
-          "questionId": "ddbf6ad9-ab55-4688-808f-46ea69fb8fa7",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Australia"
-            },
-            {
-              "answerId": "ab",
-              "text": "West Indies"
-            },
-            {
-              "answerId": "ac",
-              "text": "England"
-            },
-            {
-              "answerId": "ad",
-              "text": "India"
-            }
-          ],
-          "correctAnswerId": "ab",
-          "explanation": "The West Indies won the first Cricket World Cup in 1975, defeating Australia in the final.",
-          "difficulty": "Easy",
-          "categoryName": "Cricket",
-          "advancedCategoryName": "World Cup History",
-          "categoryId": "b1f61900-dac7-4c02-a9a5-7a5366004a32"
-        }
-      ]
-    },
-    {
-      "categoryId": "008e9f29-58ed-403e-90c6-c42c77f0badc",
-      "categoryName": "Figure Skating",
-      "advancedCategoryName": "Olympic Champions",
-      "questions": [
-        {
-          "question": "Who was the first man to land a quadruple jump in Olympic competition?",
-          "questionId": "c8bef1c0-d90b-4ef3-aa18-f45f8050c9b9",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Brian Boitano"
-            },
-            {
-              "answerId": "ab",
-              "text": "Kurt Browning"
-            },
-            {
-              "answerId": "ac",
-              "text": "Ilia Kulik"
-            },
-            {
-              "answerId": "ad",
-              "text": "Scott Hamilton"
-            }
-          ],
-          "correctAnswerId": "ac",
-          "explanation": "Ilia Kulik was the first man to land a quadruple jump in Olympic competition, achieving this at the 1998 Winter Olympics.",
-          "difficulty": "Hard",
-          "categoryName": "Figure Skating",
-          "advancedCategoryName": "Olympic Champions",
-          "categoryId": "008e9f29-58ed-403e-90c6-c42c77f0badc"
-        }
-      ]
-    },
-    {
-      "categoryId": "ffefa88e-49d6-4c04-9cfb-fd1328a62f4e",
-      "categoryName": "Soccer",
-      "advancedCategoryName": "FIFA World Cup Winners",
-      "questions": [
-        {
-          "question": "Which country has won the most FIFA World Cup titles?",
-          "questionId": "11a1db5d-485a-48b1-abd1-69bd32b8603f",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Brazil"
-            },
-            {
-              "answerId": "ab",
-              "text": "Germany"
-            },
-            {
-              "answerId": "ac",
-              "text": "Italy"
-            },
-            {
-              "answerId": "ad",
-              "text": "Argentina"
-            }
-          ],
-          "correctAnswerId": "aa",
-          "explanation": "Brazil has won the most FIFA World Cup titles, securing their 5th championship in 2002.",
-          "difficulty": "Easy",
-          "categoryName": "Soccer",
-          "advancedCategoryName": "FIFA World Cup Winners",
-          "categoryId": "ffefa88e-49d6-4c04-9cfb-fd1328a62f4e"
-        }
-      ]
-    },
-    {
-      "categoryId": "19ea26ef-bb0c-42af-bff6-e2b6f4f5e8e4",
-      "categoryName": "Golf",
-      "advancedCategoryName": "Major Championships",
-      "questions": [
-        {
-          "question": "Who has won the most major championships in golf?",
-          "questionId": "f598c75a-8d28-4339-ab5d-4b58ecb3723f",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Jack Nicklaus"
-            },
-            {
-              "answerId": "ab",
-              "text": "Tiger Woods"
-            },
-            {
-              "answerId": "ac",
-              "text": "Arnold Palmer"
-            },
-            {
-              "answerId": "ad",
-              "text": "Gary Player"
-            }
-          ],
-          "correctAnswerId": "aa",
-          "explanation": "Jack Nicklaus has won the most major championships in golf, with a total of 18.",
-          "difficulty": "Medium",
-          "categoryName": "Golf",
-          "advancedCategoryName": "Major Championships",
-          "categoryId": "19ea26ef-bb0c-42af-bff6-e2b6f4f5e8e4"
-        }
-      ]
-    },
-    {
-      "categoryId": "d2130e53-1ef4-4d3f-9128-35c38d433223",
-      "categoryName": "Hockey",
-      "advancedCategoryName": "Stanley Cup Winners",
-      "questions": [
-        {
-          "question": "Which team has won the most Stanley Cup championships?",
-          "questionId": "b898872d-2b9d-4f6d-ab52-bcfb7fdcf104",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Boston Bruins"
-            },
-            {
-              "answerId": "ab",
-              "text": "Montreal Canadiens"
-            },
-            {
-              "answerId": "ac",
-              "text": "Detroit Red Wings"
-            },
-            {
-              "answerId": "ad",
-              "text": "Toronto Maple Leafs"
-            }
-          ],
-          "correctAnswerId": "ab",
-          "explanation": "The Montreal Canadiens have won the most Stanley Cup championships, with a total of 24.",
-          "difficulty": "Medium",
-          "categoryName": "Hockey",
-          "advancedCategoryName": "Stanley Cup Winners",
-          "categoryId": "d2130e53-1ef4-4d3f-9128-35c38d433223"
-        }
-      ]
-    },
-    {
-      "categoryId": "be87787f-063b-4627-990d-99c178b76e99",
-      "categoryName": "Cycling",
-      "advancedCategoryName": "Tour de France Records",
-      "questions": [
-        {
-          "question": "Who has won the most Tour de France titles?",
-          "questionId": "e6f5b61a-894e-4239-b3e9-12db6f1f233b",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Miguel Indurain"
-            },
-            {
-              "answerId": "ab",
-              "text": "Eddy Merckx"
-            },
-            {
-              "answerId": "ac",
-              "text": "Lance Armstrong*"
-            },
-            {
-              "answerId": "ad",
-              "text": "Chris Froome"
-            }
-          ],
-          "correctAnswerId": "ab",
-          "explanation": "Eddy Merckx, Jacques Anquetil, Bernard Hinault, and Miguel Indurain each won the Tour de France five times. Lance Armstrong had won seven titles, but they were revoked due to doping offenses.",
-          "difficulty": "Very Hard",
-          "categoryName": "Cycling",
-          "advancedCategoryName": "Tour de France Records",
-          "categoryId": "be87787f-063b-4627-990d-99c178b76e99"
-        }
-      ]
-    },
-    {
       "categoryId": "e5fabd04-cd10-426e-88f9-5f6293609df3",
       "categoryName": "History",
       "advancedCategoryName": "Ancient civilizations",
@@ -737,349 +288,6 @@
       ]
     },
     {
-      "categoryId": "a199309e-b7c6-4918-ae6b-687c11b0eea2",
-      "categoryName": "Classical music",
-      "advancedCategoryName": "Composers",
-      "questions": [
-        {
-          "question": "Who composed the famous four-note opening motif of the symphony No. 5 in C minor, Op. 67?",
-          "questionId": "6552f2be-d1c1-49ea-a054-93f3d732fa94",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Johannes Brahms"
-            },
-            {
-              "answerId": "ab",
-              "text": "Ludwig van Beethoven"
-            },
-            {
-              "answerId": "ac",
-              "text": "Wolfgang Amadeus Mozart"
-            },
-            {
-              "answerId": "ad",
-              "text": "Franz Schubert"
-            }
-          ],
-          "correctAnswerId": "ab",
-          "explanation": "The motif is known worldwide and has been featured in various media. Beethoven's Symphony No. 5 is one of the most recognized and popular compositions in classical music.",
-          "difficulty": "Easy",
-          "categoryName": "Classical music",
-          "advancedCategoryName": "Composers",
-          "categoryId": "a199309e-b7c6-4918-ae6b-687c11b0eea2"
-        },
-        {
-          "categoryId": "a199309e-b7c6-4918-ae6b-687c11b0eea2",
-          "question": "Who composed the \"Minute Waltz\"?",
-          "questionId": "e506af99-4f2e-47b5-bef6-57747d0d9e8f",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Johannes Brahms"
-            },
-            {
-              "answerId": "ab",
-              "text": "Ludwig van Beethoven"
-            },
-            {
-              "answerId": "ac",
-              "text": "Frédéric Chopin"
-            },
-            {
-              "answerId": "ad",
-              "text": "Franz Schubert"
-            }
-          ],
-          "correctAnswerId": "ac",
-          "explanation": "The \"Minute Waltz\" is actually titled Waltz in D flat major, Op. 64, No. 1, but is nicknamed the \"Minute Waltz\". It was composed by Frédéric Chopin.",
-          "difficulty": "Medium",
-          "categoryName": "Classical music",
-          "advancedCategoryName": "Romantic era composers"
-        }
-      ]
-    },
-    {
-      "categoryId": "54c367b8-2303-4c66-bd2c-d50e50985efb",
-      "categoryName": "Pop music",
-      "advancedCategoryName": "21st-century pop stars",
-      "questions": [
-        {
-          "question": "Which artist is known for their 2014 hit song \"Happy\"?",
-          "questionId": "c6332f2f-3d02-4783-ab13-76699d51d518",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Bruno Mars"
-            },
-            {
-              "answerId": "ab",
-              "text": "Pharrell Williams"
-            },
-            {
-              "answerId": "ac",
-              "text": "Justin Timberlake"
-            },
-            {
-              "answerId": "ad",
-              "text": "Ed Sheeran"
-            }
-          ],
-          "correctAnswerId": "ab",
-          "explanation": "\"Happy\" was a chart-topping hit and was also featured on the soundtrack of the movie \"Despicable Me 2\".",
-          "difficulty": "Easy",
-          "categoryName": "Pop music",
-          "advancedCategoryName": "21st-century pop stars",
-          "categoryId": "54c367b8-2303-4c66-bd2c-d50e50985efb"
-        }
-      ]
-    },
-    {
-      "categoryId": "35792640-5fab-423c-85d6-1a80441020e4",
-      "categoryName": "Jazz music",
-      "advancedCategoryName": "Jazz subgenres",
-      "questions": [
-        {
-          "question": "Which of the following is NOT a subgenre of jazz music?",
-          "questionId": "5b2ab9e4-0220-4afe-a3ce-5a1fab3f0dd6",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Beebop"
-            },
-            {
-              "answerId": "ab",
-              "text": "Ska"
-            },
-            {
-              "answerId": "ac",
-              "text": "Swing"
-            },
-            {
-              "answerId": "ad",
-              "text": "Dixieland"
-            }
-          ],
-          "correctAnswerId": "ab",
-          "explanation": "While bebop, swing, and Dixieland are jazz subgenres that developed at different times in the history of jazz, ska is a music genre that originated in Jamaica in the late 1950s.",
-          "difficulty": "Medium",
-          "categoryName": "Jazz music",
-          "advancedCategoryName": "Jazz subgenres",
-          "categoryId": "35792640-5fab-423c-85d6-1a80441020e4"
-        }
-      ]
-    },
-    {
-      "categoryId": "cdb09e3a-934e-43ca-8560-ee5f8febfca9",
-      "categoryName": "Music theory",
-      "advancedCategoryName": "Musical notation",
-      "questions": [
-        {
-          "question": "What does a \"fermata\" denote in musical notation?",
-          "questionId": "fba2e943-890f-414a-a108-bbe74ba64db0",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "A sharp note"
-            },
-            {
-              "answerId": "ab",
-              "text": "A silent beat"
-            },
-            {
-              "answerId": "ac",
-              "text": "A note held longer than its normal duration"
-            },
-            {
-              "answerId": "ad",
-              "text": "The end of a musical piece"
-            }
-          ],
-          "correctAnswerId": "ac",
-          "explanation": "A fermata is a symbol placed over a note or a rest to indicate that it should be held longer than its normal duration.",
-          "difficulty": "Medium",
-          "categoryName": "Music theory",
-          "advancedCategoryName": "Musical notation",
-          "categoryId": "cdb09e3a-934e-43ca-8560-ee5f8febfca9"
-        }
-      ]
-    },
-    {
-      "categoryId": "8b46e741-3090-424f-9ba9-ae745393aa9f",
-      "categoryName": "Opera",
-      "advancedCategoryName": "Famous operas",
-      "questions": [
-        {
-          "question": "Which opera features the character Figaro as a main character?",
-          "questionId": "2c894883-74d0-47d8-b485-122e4cb70975",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Carmen"
-            },
-            {
-              "answerId": "ab",
-              "text": "La Bohème"
-            },
-            {
-              "answerId": "ac",
-              "text": "The Magic Flute"
-            },
-            {
-              "answerId": "ad",
-              "text": "The Marriage of Figaro"
-            }
-          ],
-          "correctAnswerId": "ad",
-          "explanation": "Figaro is the main character in \"The Marriage of Figaro\" (\"Le nozze di Figaro\"), which is an opera composed by Wolfgang Amadeus Mozart.",
-          "difficulty": "Medium",
-          "categoryName": "Opera",
-          "advancedCategoryName": "Famous operas",
-          "categoryId": "8b46e741-3090-424f-9ba9-ae745393aa9f"
-        }
-      ]
-    },
-    {
-      "categoryId": "cd992338-ee89-4f87-9c1d-f0571bde002a",
-      "categoryName": "Rock music",
-      "advancedCategoryName": "British rock bands",
-      "questions": [
-        {
-          "question": "Which British rock band was led by the singer Freddie Mercury?",
-          "questionId": "1b8442fd-f660-4921-9faf-304570f7bbde",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "The Beatles"
-            },
-            {
-              "answerId": "ab",
-              "text": "Led Zeppelin"
-            },
-            {
-              "answerId": "ac",
-              "text": "Queen"
-            },
-            {
-              "answerId": "ad",
-              "text": "The Rolling Stones"
-            }
-          ],
-          "correctAnswerId": "ac",
-          "explanation": "Queen was led by Freddie Mercury, one of rock music's most dynamic and versatile performers until his death in 1991.",
-          "difficulty": "Easy",
-          "categoryName": "Rock music",
-          "advancedCategoryName": "British rock bands",
-          "categoryId": "cd992338-ee89-4f87-9c1d-f0571bde002a"
-        }
-      ]
-    },
-    {
-      "categoryId": "2c58d50b-9b71-4ae4-af4c-84ecb5bef0f4",
-      "categoryName": "Music history",
-      "advancedCategoryName": "Classical period",
-      "questions": [
-        {
-          "question": "Who is known as the \"Father of the Symphony\" for his contributions to the development of the symphony?",
-          "questionId": "69dbdac1-26d0-403f-b5dc-87b2f300d24e",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Joseph Haydn"
-            },
-            {
-              "answerId": "ab",
-              "text": "Ludwig van Beethoven"
-            },
-            {
-              "answerId": "ac",
-              "text": "Wolfgang Amadeus Mozart"
-            },
-            {
-              "answerId": "ad",
-              "text": "Franz Schubert"
-            }
-          ],
-          "correctAnswerId": "aa",
-          "explanation": "Joseph Haydn is often referred to as the \"Father of the Symphony\" due to his significant contributions and improvements to the symphonic form.",
-          "difficulty": "Medium",
-          "categoryName": "Music history",
-          "advancedCategoryName": "Classical period",
-          "categoryId": "2c58d50b-9b71-4ae4-af4c-84ecb5bef0f4"
-        }
-      ]
-    },
-    {
-      "categoryId": "de7159f2-9412-44e5-be12-ff41c2cfc15d",
-      "categoryName": "World music",
-      "advancedCategoryName": "African music instruments",
-      "questions": [
-        {
-          "question": "Which of these instruments is a traditional West African drum?",
-          "questionId": "032b12b9-b078-4568-ae87-3eb9d8638866",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Sitar"
-            },
-            {
-              "answerId": "ab",
-              "text": "Djembe"
-            },
-            {
-              "answerId": "ac",
-              "text": "Didgeridoo"
-            },
-            {
-              "answerId": "ad",
-              "text": "Ukulele"
-            }
-          ],
-          "correctAnswerId": "ab",
-          "explanation": "The djembe is a rope-tuned skin-covered goblet drum played with bare hands, originally from West Africa.",
-          "difficulty": "Easy",
-          "categoryName": "World music",
-          "advancedCategoryName": "African music instruments",
-          "categoryId": "de7159f2-9412-44e5-be12-ff41c2cfc15d"
-        }
-      ]
-    },
-    {
-      "categoryId": "c75bc1f0-3b55-4a67-8053-bf10dd08f91f",
-      "categoryName": "Music production",
-      "advancedCategoryName": "Audio technology",
-      "questions": [
-        {
-          "question": "What does MIDI stand for in music production?",
-          "questionId": "a42e04f0-d7e5-47b4-9c3e-5e058761e78a",
-          "answers": [
-            {
-              "answerId": "aa",
-              "text": "Musical Instrument Digital Interface"
-            },
-            {
-              "answerId": "ab",
-              "text": "Music Integrated Digital Input"
-            },
-            {
-              "answerId": "ac",
-              "text": "Musical Interval Data Interface"
-            },
-            {
-              "answerId": "ad",
-              "text": "Multiple Instrumentation Digital Interface"
-            }
-          ],
-          "correctAnswerId": "aa",
-          "explanation": "MIDI, or Musical Instrument Digital Interface, is a technical standard that describes a communications protocol, digital interface, and connectors that allow a wide variety of electronic musical instruments, computers, and other related devices to connect and communicate with one another.",
-          "difficulty": "Medium",
-          "categoryName": "Music production",
-          "advancedCategoryName": "Audio technology",
-          "categoryId": "c75bc1f0-3b55-4a67-8053-bf10dd08f91f"
-        }
-      ]
-    },
-    {
       "categoryId": "0380eb62-5e9d-42ab-9283-3173ab8433d1",
       "categoryName": "Marine Biology",
       "advancedCategoryName": "Puffer Fish Facts",
@@ -1141,6 +349,202 @@
           "categoryName": "Marine Biology",
           "advancedCategoryName": "Puffer Fish Species",
           "generatedBy": "thecalminsanity"
+        },
+        {
+          "categoryId": "0380eb62-5e9d-42ab-9283-3173ab8433d1",
+          "question": "What is the largest mammal in the world?",
+          "questionId": "a2e08a7e-5a94-4fa6-b1d9-e0259e1ad2cb",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "African Elephant"
+            },
+            {
+              "answerId": "ab",
+              "text": "Blue Whale"
+            },
+            {
+              "answerId": "ac",
+              "text": "Great White Shark"
+            },
+            {
+              "answerId": "ad",
+              "text": "Orca"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "The Blue Whale is the largest mammal on Earth, reaching lengths of up to 100 feet (30 meters) and weights of approximately 200 tons.",
+          "difficulty": "Easy",
+          "categoryName": "Marine Biology",
+          "advancedCategoryName": "General Marine Biology"
+        },
+        {
+          "categoryId": "0380eb62-5e9d-42ab-9283-3173ab8433d1",
+          "question": "What is the primary source of energy for deep sea ecosystems?",
+          "questionId": "d6bdded7-4b8d-47b3-80ce-9d1de7416249",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Sunlight"
+            },
+            {
+              "answerId": "ab",
+              "text": "Thermal vents"
+            },
+            {
+              "answerId": "ac",
+              "text": "Bioluminescence"
+            },
+            {
+              "answerId": "ad",
+              "text": "Decomposition"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "Thermal vents provide the primary source of energy for deep sea ecosystems, supporting a wide variety of life forms without sunlight.",
+          "difficulty": "Medium",
+          "categoryName": "Marine Biology",
+          "advancedCategoryName": "Marine Ecosystems"
+        },
+        {
+          "categoryId": "0380eb62-5e9d-42ab-9283-3173ab8433d1",
+          "question": "Which layer of the ocean is the most biologically active?",
+          "questionId": "5dcbb5b5-6a5a-44cd-848f-d20efb701e9f",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Abyssopelagic Zone"
+            },
+            {
+              "answerId": "ab",
+              "text": "Bathypelagic Zone"
+            },
+            {
+              "answerId": "ac",
+              "text": "Mesopelagic Zone"
+            },
+            {
+              "answerId": "ad",
+              "text": "Epipelagic Zone"
+            }
+          ],
+          "correctAnswerId": "ad",
+          "explanation": "The Epipelagic Zone, also known as the sunlight zone, is the uppermost layer of the ocean and receives enough sunlight to support photosynthesis, making it the most biologically active.",
+          "difficulty": "Medium",
+          "categoryName": "Marine Biology",
+          "advancedCategoryName": "Oceanography"
+        },
+        {
+          "categoryId": "0380eb62-5e9d-42ab-9283-3173ab8433d1",
+          "question": "Coral bleaching occurs when corals lose their symbiotic algae. What is the main cause of this phenomenon?",
+          "questionId": "a55fb926-723e-4252-aa71-14cc2702de82",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Overfishing"
+            },
+            {
+              "answerId": "ab",
+              "text": "Ocean Acidification"
+            },
+            {
+              "answerId": "ac",
+              "text": "Sea Temperature Rise"
+            },
+            {
+              "answerId": "ad",
+              "text": "Plastic Pollution"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "Sea Temperature Rise is the main cause of coral bleaching, as the increased temperatures disrupt the symbiotic relationship between the coral and its algae, leading to the algae's expulsion.",
+          "difficulty": "Medium",
+          "categoryName": "Marine Biology",
+          "advancedCategoryName": "Coral Reef Ecology"
+        },
+        {
+          "categoryId": "0380eb62-5e9d-42ab-9283-3173ab8433d1",
+          "question": "The Convention on International Trade in Endangered Species (CITES) has which of the following marine animals listed in its Appendix I, indicating the highest level of protection?",
+          "questionId": "70a8815a-8095-4a4d-98a3-4ebee41c7443",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Blue Whale"
+            },
+            {
+              "answerId": "ab",
+              "text": "Tiger Shark"
+            },
+            {
+              "answerId": "ac",
+              "text": "Great White Shark"
+            },
+            {
+              "answerId": "ad",
+              "text": "Seahorse"
+            }
+          ],
+          "correctAnswerId": "ad",
+          "explanation": "The Seahorse is listed in CITES Appendix I, indicating it is at high risk of extinction and commercial trade of this species is strictly regulated.",
+          "difficulty": "Hard",
+          "categoryName": "Marine Biology",
+          "advancedCategoryName": "Marine Conservation"
+        },
+        {
+          "categoryId": "0380eb62-5e9d-42ab-9283-3173ab8433d1",
+          "question": "What adaptation do deep-sea fishes have to cope with high pressure?",
+          "questionId": "129e1102-3158-477d-828f-ccbcc33118ce",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Enhanced vision"
+            },
+            {
+              "answerId": "ab",
+              "text": "Bioluminescence"
+            },
+            {
+              "answerId": "ac",
+              "text": "Reduced skeletal structure"
+            },
+            {
+              "answerId": "ad",
+              "text": "Air-filled swim bladders"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "Reduced skeletal structure is an adaptation found in some deep-sea fishes to cope with the high pressure, allowing their bodies to be more flexible and withstand the immense pressure without being crushed.",
+          "difficulty": "Very Hard",
+          "categoryName": "Marine Biology",
+          "advancedCategoryName": "Marine Physiology"
+        },
+        {
+          "categoryId": "0380eb62-5e9d-42ab-9283-3173ab8433d1",
+          "question": "In a cleaner fish and host fish relationship, what does the cleaner fish eat?",
+          "questionId": "10e6d3c6-5e07-439b-82b6-7e285f035d46",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Algae"
+            },
+            {
+              "answerId": "ab",
+              "text": "Dead skin cells"
+            },
+            {
+              "answerId": "ac",
+              "text": "Parasites"
+            },
+            {
+              "answerId": "ad",
+              "text": "Plankton"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "Cleaner fish eat parasites from the surface and gills of the host fish, providing a service by keeping the host healthy and gaining a meal in the process.",
+          "difficulty": "Hard",
+          "categoryName": "Marine Biology",
+          "advancedCategoryName": "Species Interaction"
         }
       ]
     },
@@ -1177,6 +581,889 @@
           "advancedCategoryName": "Olympic History",
           "generatedBy": "thecalminsanity",
           "categoryId": "2f569388-f3eb-4387-9310-75d7a1456502"
+        },
+        {
+          "categoryId": "2f569388-f3eb-4387-9310-75d7a1456502",
+          "question": "What shape is the ball used in association football (soccer)?",
+          "questionId": "72e1dd02-8c71-4afd-b5bd-86af051996ab",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Cube"
+            },
+            {
+              "answerId": "ab",
+              "text": "Sphere"
+            },
+            {
+              "answerId": "ac",
+              "text": "Cylinder"
+            },
+            {
+              "answerId": "ad",
+              "text": "Ellipsoid"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "The correct answer is B) because that is the standard shape for soccer balls used in the sport worldwide.",
+          "difficulty": "Easy",
+          "categoryName": "Sports",
+          "advancedCategoryName": "General knowledge"
+        },
+        {
+          "categoryId": "2f569388-f3eb-4387-9310-75d7a1456502",
+          "question": "Who won the Wimbledon Men’s Singles title in 2008?",
+          "questionId": "36c0e519-f933-4908-af17-2cd87d1dbc56",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Novak Djokovic"
+            },
+            {
+              "answerId": "ab",
+              "text": "Roger Federer"
+            },
+            {
+              "answerId": "ac",
+              "text": "Rafael Nadal"
+            },
+            {
+              "answerId": "ad",
+              "text": "Andy Murray"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "The correct answer is C) Rafael Nadal. This match is often cited as one of the greatest tennis matches of all time.",
+          "difficulty": "Medium",
+          "categoryName": "Sports",
+          "advancedCategoryName": "Tennis history"
+        },
+        {
+          "categoryId": "2f569388-f3eb-4387-9310-75d7a1456502",
+          "question": "What year did the Summer Olympics feature the debut of beach volleyball as an official medal sport?",
+          "questionId": "6938da75-5c5f-48e7-9931-b9038f9d7860",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "1992"
+            },
+            {
+              "answerId": "ab",
+              "text": "1996"
+            },
+            {
+              "answerId": "ac",
+              "text": "2000"
+            },
+            {
+              "answerId": "ad",
+              "text": "2004"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "Beach volleyball was introduced as an official medal sport in the 1996 Atlanta Games.",
+          "difficulty": "Medium",
+          "categoryName": "Sports",
+          "advancedCategoryName": "Olympic Games"
+        },
+        {
+          "categoryId": "2f569388-f3eb-4387-9310-75d7a1456502",
+          "question": "How many players are on the court for one team during a standard basketball game?",
+          "questionId": "a95c436e-13d6-495a-99b3-d0e30d3cfad3",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "4"
+            },
+            {
+              "answerId": "ab",
+              "text": "5"
+            },
+            {
+              "answerId": "ac",
+              "text": "6"
+            },
+            {
+              "answerId": "ad",
+              "text": "7"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "The correct answer is B) 5, as per standard basketball rules each team has five players on the court.",
+          "difficulty": "Easy",
+          "categoryName": "Sports",
+          "advancedCategoryName": "Basketball rules"
+        },
+        {
+          "categoryId": "2f569388-f3eb-4387-9310-75d7a1456502",
+          "question": "Who scored the highest individual score in an ODI cricket match?",
+          "questionId": "4aa95dea-f43c-4817-b6f8-725c78785f5a",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Sachin Tendulkar"
+            },
+            {
+              "answerId": "ab",
+              "text": "Chris Gayle"
+            },
+            {
+              "answerId": "ac",
+              "text": "Martin Guptill"
+            },
+            {
+              "answerId": "ad",
+              "text": "Rohit Sharma"
+            }
+          ],
+          "correctAnswerId": "ad",
+          "explanation": "Rohit Sharma holds the record for the highest individual score in an ODI, scoring 264 runs against Sri Lanka.",
+          "difficulty": "Hard",
+          "categoryName": "Sports",
+          "advancedCategoryName": "Cricket history"
+        },
+        {
+          "categoryId": "2f569388-f3eb-4387-9310-75d7a1456502",
+          "question": "In figure skating, what is a \"Lutz\"?",
+          "questionId": "476afaaa-3f73-434d-985e-99a9d302e7aa",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "A spin"
+            },
+            {
+              "answerId": "ab",
+              "text": "A jump"
+            },
+            {
+              "answerId": "ac",
+              "text": "A lift"
+            },
+            {
+              "answerId": "ad",
+              "text": "A slide"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "The correct answer is B) A jump. The Lutz is a toe-pick-assisted jump that is one of the most difficult in figure skating.",
+          "difficulty": "Medium",
+          "categoryName": "Sports",
+          "advancedCategoryName": "Figure skating terminology"
+        },
+        {
+          "categoryId": "2f569388-f3eb-4387-9310-75d7a1456502",
+          "question": "Who holds the men's world record for the fastest marathon time?",
+          "questionId": "d414906c-f1f8-4184-8728-5cc19e53053c",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Kilian Jornet"
+            },
+            {
+              "answerId": "ab",
+              "text": "Haile Gebrselassie"
+            },
+            {
+              "answerId": "ac",
+              "text": "Eliud Kipchoge"
+            },
+            {
+              "answerId": "ad",
+              "text": "Kenenisa Bekele"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "Eliud Kipchoge holds the record, with a time of 2:01:39, set at the Berlin Marathon in 2018.",
+          "difficulty": "Hard",
+          "categoryName": "Sports",
+          "advancedCategoryName": "Marathon records"
+        },
+        {
+          "categoryId": "2f569388-f3eb-4387-9310-75d7a1456502",
+          "question": "Which golfer has won the most Masters Tournaments?",
+          "questionId": "660683a6-ec8c-4f3c-b5b4-4cf55c633ab0",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Jack Nicklaus"
+            },
+            {
+              "answerId": "ab",
+              "text": "Tiger Woods"
+            },
+            {
+              "answerId": "ac",
+              "text": "Arnold Palmer"
+            },
+            {
+              "answerId": "ad",
+              "text": "Gary Player"
+            }
+          ],
+          "correctAnswerId": "aa",
+          "explanation": "Jack Nicklaus has won the Masters Tournament a record six times.",
+          "difficulty": "Medium",
+          "categoryName": "Sports",
+          "advancedCategoryName": "Golf championships"
+        },
+        {
+          "categoryId": "2f569388-f3eb-4387-9310-75d7a1456502",
+          "question": "Who is known as \"The King of Football\"?",
+          "questionId": "c5b397aa-cd18-4f65-a318-b00ae12bcdb6",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Diego Maradona"
+            },
+            {
+              "answerId": "ab",
+              "text": "Lionel Messi"
+            },
+            {
+              "answerId": "ac",
+              "text": "Pelé"
+            },
+            {
+              "answerId": "ad",
+              "text": "Cristiano Ronaldo"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "Pelé is often referred to as \"The King of Football,\" having won three FIFA World Cups with Brazil.",
+          "difficulty": "Medium",
+          "categoryName": "Sports",
+          "advancedCategoryName": "Football legends"
+        },
+        {
+          "categoryId": "2f569388-f3eb-4387-9310-75d7a1456502",
+          "question": "In which sport would participants perform a \"McTwist\"?",
+          "questionId": "62c45a54-38a3-477d-a788-fdf7cf818e40",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Skateboarding"
+            },
+            {
+              "answerId": "ab",
+              "text": "Snowboarding"
+            },
+            {
+              "answerId": "ac",
+              "text": "Surfing"
+            },
+            {
+              "answerId": "ad",
+              "text": "BMX"
+            }
+          ],
+          "correctAnswerId": "aa",
+          "explanation": "The \"McTwist\" is a trick performed in both skateboarding and snowboarding, but it was originally known in skateboarding.",
+          "difficulty": "Very hard",
+          "categoryName": "Sports",
+          "advancedCategoryName": "Extreme sports"
+        }
+      ]
+    },
+    {
+      "categoryId": "b65d3d3e-452f-4538-a051-b7697992da56",
+      "categoryName": "Music",
+      "advancedCategoryName": "General Knowledge on Music",
+      "questions": [
+        {
+          "question": "Who is known as the \"King of Pop\"?",
+          "questionId": "118ce427-550a-4c88-979c-a198dae92c9e",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Elvis Presley"
+            },
+            {
+              "answerId": "ab",
+              "text": "Michael Jackson"
+            },
+            {
+              "answerId": "ac",
+              "text": "Justin Timberlake"
+            },
+            {
+              "answerId": "ad",
+              "text": "Freddie Mercury"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "Michael Jackson is widely regarded as the \"King of Pop\" due to his significant impact on the music industry throughout his career.",
+          "difficulty": "Easy",
+          "categoryName": "Music",
+          "advancedCategoryName": "General Knowledge on Music",
+          "categoryId": "b65d3d3e-452f-4538-a051-b7697992da56"
+        },
+        {
+          "categoryId": "b65d3d3e-452f-4538-a051-b7697992da56",
+          "question": "Who composed the Four Seasons?",
+          "questionId": "92990e06-361c-445f-b4ae-dfa6cf865ddd",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Ludwig van Beethoven"
+            },
+            {
+              "answerId": "ab",
+              "text": "Wolfgang Amadeus Mozart"
+            },
+            {
+              "answerId": "ac",
+              "text": "Antonio Vivaldi"
+            },
+            {
+              "answerId": "ad",
+              "text": "Johann Sebastian Bach"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "The Four Seasons is a group of four violin concerti by Italian composer Antonio Vivaldi, each of which gives musical expression to a season of the year.",
+          "difficulty": "Easy",
+          "categoryName": "Music",
+          "advancedCategoryName": "Classical Composers"
+        },
+        {
+          "categoryId": "b65d3d3e-452f-4538-a051-b7697992da56",
+          "question": "What does \"forte\" mean in music?",
+          "questionId": "8810def9-252a-45ea-9ef3-e7831a64ffcc",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Fast"
+            },
+            {
+              "answerId": "ab",
+              "text": "Slow"
+            },
+            {
+              "answerId": "ac",
+              "text": "Loud"
+            },
+            {
+              "answerId": "ad",
+              "text": "Soft"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "In music, \"forte\" is a dynamic instruction that means to play loudly.",
+          "difficulty": "Easy",
+          "categoryName": "Music",
+          "advancedCategoryName": "Music Theory"
+        },
+        {
+          "categoryId": "b65d3d3e-452f-4538-a051-b7697992da56",
+          "question": "Which of these is a woodwind instrument?",
+          "questionId": "78efc1d9-2929-4b1f-a45b-9231ff6d94b8",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Trumpet"
+            },
+            {
+              "answerId": "ab",
+              "text": "Trombone"
+            },
+            {
+              "answerId": "ac",
+              "text": "Flute"
+            },
+            {
+              "answerId": "ad",
+              "text": "Cello"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "The flute is classified as a woodwind instrument because it produces sound from the flow of air across an opening.",
+          "difficulty": "Easy",
+          "categoryName": "Music",
+          "advancedCategoryName": "Music Instruments"
+        },
+        {
+          "categoryId": "b65d3d3e-452f-4538-a051-b7697992da56",
+          "question": "Who was the original drummer for The Beatles before Ringo Starr?",
+          "questionId": "3031b165-3d9f-4b04-8582-ce7d31254196",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Pete Best"
+            },
+            {
+              "answerId": "ab",
+              "text": "Stuart Sutcliffe"
+            },
+            {
+              "answerId": "ac",
+              "text": "George Martin"
+            },
+            {
+              "answerId": "ad",
+              "text": "Brian Epstein"
+            }
+          ],
+          "correctAnswerId": "aa",
+          "explanation": "Pete Best was the original drummer for The Beatles, but he was replaced by Ringo Starr in 1962.",
+          "difficulty": "Medium",
+          "categoryName": "Music",
+          "advancedCategoryName": "Beatles History"
+        },
+        {
+          "categoryId": "b65d3d3e-452f-4538-a051-b7697992da56",
+          "question": "What genre of music did Bob Marley promote?",
+          "questionId": "a7059935-2043-4bf9-b6cf-f56d659c8cf1",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Rock"
+            },
+            {
+              "answerId": "ab",
+              "text": "Jazz"
+            },
+            {
+              "answerId": "ac",
+              "text": "Reggae"
+            },
+            {
+              "answerId": "ad",
+              "text": "Country"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "Bob Marley is credited with helping to spread both Jamaican music and the Rastafari movement to a worldwide audience.",
+          "difficulty": "Medium",
+          "categoryName": "Music",
+          "advancedCategoryName": "Music Genres"
+        },
+        {
+          "categoryId": "b65d3d3e-452f-4538-a051-b7697992da56",
+          "question": "Which album is David Bowie's alter ego Ziggy Stardust featured on?",
+          "questionId": "be20de47-71e2-4c16-9c17-7bd9f1f33edb",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Hunky Dory"
+            },
+            {
+              "answerId": "ab",
+              "text": "Blackstar"
+            },
+            {
+              "answerId": "ac",
+              "text": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars"
+            },
+            {
+              "answerId": "ad",
+              "text": "Heroes"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "Ziggy Stardust is a fictional character and alter ego of English musician David Bowie, featured on the album \"The Rise and Fall of Ziggy Stardust and the Spiders from Mars.\"",
+          "difficulty": "Medium",
+          "categoryName": "Music",
+          "advancedCategoryName": "Albums and Hits"
+        },
+        {
+          "categoryId": "b65d3d3e-452f-4538-a051-b7697992da56",
+          "question": "Who has won the most Grammy Awards?",
+          "questionId": "2a6aef7a-cd01-4f6f-be62-010fc11d7606",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Beyoncé"
+            },
+            {
+              "answerId": "ab",
+              "text": "Georg Solti"
+            },
+            {
+              "answerId": "ac",
+              "text": "Michael Jackson"
+            },
+            {
+              "answerId": "ad",
+              "text": "Paul McCartney"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "Conductor Georg Solti holds the record for the most Grammy Awards, having won 31 competitive Grammy Awards.",
+          "difficulty": "Hard",
+          "categoryName": "Music",
+          "advancedCategoryName": "Music Awards"
+        },
+        {
+          "categoryId": "b65d3d3e-452f-4538-a051-b7697992da56",
+          "question": "Which of these musical pieces is an example of a requiem?",
+          "questionId": "1a2e4441-bea4-4ef6-a91e-c2ea72b60288",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Beethoven's Symphony No. 9"
+            },
+            {
+              "answerId": "ab",
+              "text": "Handel's Messiah"
+            },
+            {
+              "answerId": "ac",
+              "text": "Mozart's Requiem"
+            },
+            {
+              "answerId": "ad",
+              "text": "Bach's Toccata and Fugue in D Minor"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "A requiem is a Mass for the repose of the souls of the dead. Mozart's Requiem is one of the most famous examples.",
+          "difficulty": "Hard",
+          "categoryName": "Music",
+          "advancedCategoryName": "Musical Composition"
+        },
+        {
+          "categoryId": "b65d3d3e-452f-4538-a051-b7697992da56",
+          "question": "Which of the following albums is considered a groundbreaking work of concept art?",
+          "questionId": "a6657f9c-be0b-4c56-8507-d973752f6e91",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "The Beatles' \"Abbey Road\""
+            },
+            {
+              "answerId": "ab",
+              "text": "Pink Floyd's \"The Dark Side of the Moon\""
+            },
+            {
+              "answerId": "ac",
+              "text": "Fleetwood Mac's \"Rumours\""
+            },
+            {
+              "answerId": "ad",
+              "text": "Nirvana's \"Nevermind\""
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "\"The Dark Side of the Moon\" by Pink Floyd is praised as a milestone in the history of music, widely regarded as one of the greatest and most innovative albums ever recorded.",
+          "difficulty": "Very Challenging",
+          "categoryName": "Music",
+          "advancedCategoryName": "Innovative Albums"
+        },
+        {
+          "categoryId": "b65d3d3e-452f-4538-a051-b7697992da56",
+          "questionId": "123e4567-e89b-12d3-a456-426614174000",
+          "question": "Which composer is known for transcribing Antonio Vivaldi's concertos for organ solo?",
+          "answers": [
+            {
+              "answerId": "a1",
+              "text": "Johann Sebastian Bach"
+            },
+            {
+              "answerId": "a2",
+              "text": "Wolfgang Amadeus Mozart"
+            },
+            {
+              "answerId": "a3",
+              "text": "Ludwig van Beethoven"
+            },
+            {
+              "answerId": "a4",
+              "text": "Franz Schubert"
+            }
+          ],
+          "correctAnswerId": "a1",
+          "difficulty": "Hard",
+          "explanation": "Johann Sebastian Bach is known for his interest in Vivaldi's concertos, which influenced his own composition style. He arranged several of Vivaldi’s concertos for solo keyboard, showcasing his admiration and the impact of Vivaldi’s music on his work.",
+          "categoryName": "Music",
+          "advancedCategoryName": "Music History",
+          "generatedBy": "thecalminsanity"
+        }
+      ]
+    },
+    {
+      "categoryId": "9b896ce1-7c0d-4d3b-bbb1-7971e5df4b0d",
+      "categoryName": "Geography",
+      "advancedCategoryName": "World Capitals",
+      "questions": [
+        {
+          "question": "What is the capital of Australia?",
+          "questionId": "0daa1012-05e8-40f9-b53c-7d30d3d028f2",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Sydney"
+            },
+            {
+              "answerId": "ab",
+              "text": "Melbourne"
+            },
+            {
+              "answerId": "ac",
+              "text": "Canberra"
+            },
+            {
+              "answerId": "ad",
+              "text": "Brisbane"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "Explanation: Canberra is the capital city of Australia, contrary to the common misconception that Sydney, the largest city, serves this role.",
+          "difficulty": "Easy",
+          "categoryName": "Geography",
+          "advancedCategoryName": "World Capitals",
+          "categoryId": "9b896ce1-7c0d-4d3b-bbb1-7971e5df4b0d"
+        },
+        {
+          "categoryId": "9b896ce1-7c0d-4d3b-bbb1-7971e5df4b0d",
+          "question": "Which country is not located in Africa?",
+          "questionId": "afb8ae11-bde2-482b-a922-95297d2d23de",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Nigeria"
+            },
+            {
+              "answerId": "ab",
+              "text": "Peru"
+            },
+            {
+              "answerId": "ac",
+              "text": "Egypt"
+            },
+            {
+              "answerId": "ad",
+              "text": "Kenya"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "Explanation: Peru is located in South America, whereas the other nations listed are all situated within the African continent.",
+          "difficulty": "Easy",
+          "categoryName": "Geography",
+          "advancedCategoryName": "African Nations"
+        },
+        {
+          "categoryId": "9b896ce1-7c0d-4d3b-bbb1-7971e5df4b0d",
+          "question": "What is the longest river in the world?",
+          "questionId": "ad9ba10f-dee6-4d08-bd24-4dfc065173a9",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Nile"
+            },
+            {
+              "answerId": "ab",
+              "text": "Amazon"
+            },
+            {
+              "answerId": "ac",
+              "text": "Yangtze"
+            },
+            {
+              "answerId": "ad",
+              "text": "Mississippi"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "Explanation: There has been some debate over whether the Nile or the Amazon is the longest river in the world. According to most accepted measurements, the Amazon River is longer than the Nile.",
+          "difficulty": "Medium",
+          "categoryName": "Geography",
+          "advancedCategoryName": "World Rivers"
+        },
+        {
+          "categoryId": "9b896ce1-7c0d-4d3b-bbb1-7971e5df4b0d",
+          "question": "Which city is known as the \"City of Love\"?",
+          "questionId": "882b6240-2547-4dd3-a06a-2d1a14864285",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Paris"
+            },
+            {
+              "answerId": "ab",
+              "text": "Venice"
+            },
+            {
+              "answerId": "ac",
+              "text": "London"
+            },
+            {
+              "answerId": "ad",
+              "text": "Barcelona"
+            }
+          ],
+          "correctAnswerId": "aa",
+          "explanation": "Explanation: Paris, France, is often referred to as the \"City of Love\" due to its romantic ambiance, historical art, and architecture.",
+          "difficulty": "Easy",
+          "categoryName": "Geography",
+          "advancedCategoryName": "European Cities"
+        },
+        {
+          "categoryId": "9b896ce1-7c0d-4d3b-bbb1-7971e5df4b0d",
+          "question": "Which is the highest mountain range in the world?",
+          "questionId": "0ed89397-0e34-4b16-89f1-266159beeb6f",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Andes"
+            },
+            {
+              "answerId": "ab",
+              "text": "Himalayas"
+            },
+            {
+              "answerId": "ac",
+              "text": "Rockies"
+            },
+            {
+              "answerId": "ad",
+              "text": "Alps"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "Explanation: The Himalayas, located in Asia, contain many of the world's highest peaks, including Mount Everest, the highest point on Earth.",
+          "difficulty": "Medium",
+          "categoryName": "Geography",
+          "advancedCategoryName": "Mountain Ranges"
+        },
+        {
+          "categoryId": "9b896ce1-7c0d-4d3b-bbb1-7971e5df4b0d",
+          "question": "What is the deepest point in the world's oceans?",
+          "questionId": "54846b4c-a986-4121-aaf0-dff57be3a18b",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Mariana Trench"
+            },
+            {
+              "answerId": "ab",
+              "text": "Tonga Trench"
+            },
+            {
+              "answerId": "ac",
+              "text": "Java Trench"
+            },
+            {
+              "answerId": "ad",
+              "text": "Philippine Trench"
+            }
+          ],
+          "correctAnswerId": "aa",
+          "explanation": "Explanation: The Mariana Trench is the deepest known point in the Earth's oceans. It is located in the western Pacific Ocean.",
+          "difficulty": "Medium",
+          "categoryName": "Geography",
+          "advancedCategoryName": "Oceanography"
+        },
+        {
+          "categoryId": "9b896ce1-7c0d-4d3b-bbb1-7971e5df4b0d",
+          "question": "Which of the following gases is the most significant greenhouse gas contributing to global warming?",
+          "questionId": "7ebd0c50-5daa-4719-84fc-33ab8d50b21b",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Nitrous Oxide"
+            },
+            {
+              "answerId": "ab",
+              "text": "Carbon Dioxide"
+            },
+            {
+              "answerId": "ac",
+              "text": "Methane"
+            },
+            {
+              "answerId": "ad",
+              "text": "Water Vapor"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "Explanation: Carbon Dioxide (CO2) is considered the most significant greenhouse gas emitted by human activities, contributing to global warming and climate change.",
+          "difficulty": "Hard",
+          "categoryName": "Geography",
+          "advancedCategoryName": "Climate Science"
+        },
+        {
+          "categoryId": "9b896ce1-7c0d-4d3b-bbb1-7971e5df4b0d",
+          "question": "What is the largest desert in the world?",
+          "questionId": "96110fab-0579-4469-bea1-638f31b2bfc5",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Sahara"
+            },
+            {
+              "answerId": "ab",
+              "text": "Arabian"
+            },
+            {
+              "answerId": "ac",
+              "text": "Gobi"
+            },
+            {
+              "answerId": "ad",
+              "text": "Antarctic"
+            }
+          ],
+          "correctAnswerId": "ad",
+          "explanation": "Explanation: The Antarctic Desert, covering an area of about 14 million square kilometers, is the largest desert in the world. It encompasses all of Antarctica.",
+          "difficulty": "Medium",
+          "categoryName": "Geography",
+          "advancedCategoryName": "Desert Geography"
+        },
+        {
+          "categoryId": "9b896ce1-7c0d-4d3b-bbb1-7971e5df4b0d",
+          "question": "Which of these is not an island nation?",
+          "questionId": "a8cd1c0a-f19e-4c04-846d-4490a76146e5",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Fiji"
+            },
+            {
+              "answerId": "ab",
+              "text": "Iceland"
+            },
+            {
+              "answerId": "ac",
+              "text": "Portugal"
+            },
+            {
+              "answerId": "ad",
+              "text": "Madagascar"
+            }
+          ],
+          "correctAnswerId": "ac",
+          "explanation": "Explanation: Portugal is a coastal country located in Southern Europe on the Iberian Peninsula, bordering Spain and the Atlantic Ocean. It is not an island nation.",
+          "difficulty": "Easy",
+          "categoryName": "Geography",
+          "advancedCategoryName": "Island Nations"
+        },
+        {
+          "categoryId": "9b896ce1-7c0d-4d3b-bbb1-7971e5df4b0d",
+          "question": "Which country is the largest producer of coffee in the world?",
+          "questionId": "995b4020-26f4-4e77-822a-6223ff6adbd5",
+          "answers": [
+            {
+              "answerId": "aa",
+              "text": "Vietnam"
+            },
+            {
+              "answerId": "ab",
+              "text": "Brazil"
+            },
+            {
+              "answerId": "ac",
+              "text": "Colombia"
+            },
+            {
+              "answerId": "ad",
+              "text": "Ethiopia"
+            }
+          ],
+          "correctAnswerId": "ab",
+          "explanation": "Explanation: Brazil is the largest producer of coffee in the world, contributing about a third of the total coffee production globally.",
+          "difficulty": "Hard",
+          "categoryName": "Geography",
+          "advancedCategoryName": "Economic Geography"
         }
       ]
     }
